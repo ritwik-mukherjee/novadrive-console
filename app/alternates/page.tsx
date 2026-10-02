@@ -1,5 +1,10 @@
-import { Pending } from "@/components/ui/Pending";
+import { Suspense } from "react";
+import { AlternatesView } from "@/components/alternates/AlternatesView";
 
 export default function Page() {
-  return <Pending step={7} what="Curated shortlist with editable fitment, independence check, CSV export and live public-source search." />;
+  return (
+    <Suspense>
+      <AlternatesView />
+    </Suspense>
+  );
 }
