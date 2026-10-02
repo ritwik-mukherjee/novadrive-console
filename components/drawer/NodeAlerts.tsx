@@ -1,29 +1,30 @@
 "use client";
 
-import { dataset } from "@/lib/data";
+import { LevelChip } from "@/components/alerts/LevelChip";
+import { useAlertFeed } from "@/lib/alertStore";
 import { useDrawer } from "@/lib/drawer";
 import { fmtNum } from "@/lib/format";
-import { useModel } from "@/lib/weights";
 
-/** Case events whose primary node is this node (step 6 extends this to zone matches and simulated events). */
+/** Every feed event (case or typed-in) whose match touches this node. */
 export function NodeAlerts({ nodeId }: { nodeId: string }) {
-  const { model } = useModel();
+  const feed = useAlertFeed();
   const open = useDrawer((s) => s.open);
-  const hits = dataset.events.filter((e) => e.primaryNode === nodeId);
-  if (hits.length === 0) return <p className="text-muted">No alert in the feed names this node.</p>;
+  const hits = feed.filter((f) => f.match.primaryNode === nodeId || f.match.matchedNodes.includes(nodeId));
+  if (hits.length === 0) return <p className="text-muted">No event in the feed touches this node.</p>;
   return (
-    <ul className="space-y-1">
-      {hits.map((e) => {
-        const r = model.alerts.find((a) => a.id === e.id)!;
-        return (
-          <li key={e.id}>
-            <button className="text-left hover:underline" onClick={() => open({ kind: "event", id: e.id })}>
-              <span className="num">{e.id}</span> {e.title} · <span className="font-medium">{r.levelLabel}</span>{" "}
-              <span className="num text-muted">{fmtNum(r.score)}</span>
-            </button>
-          </li>
-        );
-      })}
+    <ul className="space-y-1.5">
+      {hits.map((f) => (
+        <li key={f.event.id} className="flex flex-wrap items-center gap-2">
+          <LevelChip level={f.alert.level} label={f.alert.levelLabel} provisional={f.provisional} />
+          <button className="text-left hover:underline" onClick={() => open({ kind: "event", id: f.event.id })}>
+            <span className="num">{f.event.id}</span> {f.event.title}
+          </button>
+          <span className="num text-xs text-muted">
+            {fmtNum(f.alert.score, 1)}
+            {f.match.primaryNode === nodeId ? " · primary" : " · zone match"}
+          </span>
+        </li>
+      ))}
     </ul>
   );
 }

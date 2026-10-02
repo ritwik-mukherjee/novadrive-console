@@ -1,5 +1,10 @@
-import { Pending } from "@/components/ui/Pending";
+import { Suspense } from "react";
+import { AlertsView } from "@/components/alerts/AlertsView";
 
 export default function Page() {
-  return <Pending step={6} what="Event feed, five-step pipeline per event, alert cards and the simulate-a-new-event form." />;
+  return (
+    <Suspense>
+      <AlertsView />
+    </Suspense>
+  );
 }

@@ -1,0 +1,65 @@
+{
+  "_note": "Hand-maintained entity-resolution dictionary (PRD section 7). Legal names, site IDs, facility names and zones come from entities.json/sites.json automatically; this file adds what the workbook does not hold as columns: short names, registry numbers, place names and the negative rules proven by evidence.",
+  "aliases": {
+    "ORG-247": ["Aster", "Aster Power"],
+    "ORG-725": ["Boreal", "Boreal Power"],
+    "ORG-119": ["Cobalt", "Cobalt Control"],
+    "ORG-268": ["CommonSpan"],
+    "ORG-922": ["Delta", "Delta Capacitor"],
+    "ORG-857": ["Delta", "Delta Plastics"],
+    "ORG-786": ["Estuary", "Estuary Thermal"],
+    "ORG-287": ["ForgeLine"],
+    "ORG-103": ["Grove", "Grove Battery"],
+    "ORG-328": ["Harbor Freight"],
+    "ORG-176": ["HarborSense"],
+    "ORG-309": ["Ion Peak"],
+    "ORG-439": ["IonPeak", "Ion Peak", "IonPeak Semi"],
+    "ORG-445": ["Jade", "Jade Holdings"],
+    "ORG-453": ["Jade", "Jade PCB", "Jade Circuits"],
+    "ORG-728": ["Kestrel"],
+    "ORG-942": ["Lumen"],
+    "ORG-210": ["Meridian"],
+    "ORG-849": ["Nacre"],
+    "ORG-708": ["Orion"],
+    "ORG-274": ["Pine Thermal"],
+    "ORG-329": ["Quartz Alloy"],
+    "ORG-469": ["Rill"],
+    "ORG-320": ["Solace"],
+    "ORG-455": ["Umber"],
+    "ORG-736": ["Verdant"],
+    "ORG-873": ["Warden"],
+    "ORG-179": ["Xenon"],
+    "ORG-520": ["Yarrow"],
+    "ORG-659": ["Zenith"]
+  },
+  "registry": [{ "number": "REG-NO-4128", "entityId": "ORG-309", "evidence": "DOC-077" }],
+  "places": [
+    { "name": "East Delta", "zone": "Z01" },
+    { "name": "Western Ridge", "zone": "Z05" },
+    { "name": "Harbor District", "zone": "Z07" },
+    { "name": "Gulf Arc", "zone": null }
+  ],
+  "negativeRules": [
+    {
+      "mention": "Ion Peak Trading",
+      "notEntity": "ORG-439",
+      "evidence": "DOC-077",
+      "text": "Ion Peak Trading (REG-NO-4128) is an unrelated broker, not IonPeak Semiconductor."
+    },
+    {
+      "mention": "Delta Consumer Plastics",
+      "notEntity": "ORG-922",
+      "evidence": "DOC-084",
+      "text": "Delta Consumer Plastics is not Delta Capacitor Works; its 2024 packaging trial never became a supply award."
+    }
+  ],
+  "siteNotes": {
+    "SITE-901": { "evidence": "DOC-076", "text": "Jade HQ SITE-901 is the registered headquarters and does not manufacture; production is SITE-081 (Z01)." },
+    "SITE-900": { "evidence": "DOC-077", "text": "IonPeak SITE-900 is a research and pilot line using a different process; it is not a qualified source for NovaDrive dies." },
+    "SITE-242": { "evidence": "DOC-083", "text": "Harbor Freight's SITE-242 \"Harbor Works\" is a consolidation/notify-party site for power dies into Aster, not a factory." }
+  },
+  "facilityRoleWords": {
+    "hq": ["head office", "headquarters", "hq", "corporate office", "administrative office", "registered office"],
+    "pilot": ["pilot line", "pilot plant", "pilot facility", "research centre", "research center", "development center", "development centre", "r&d"]
+  }
+}

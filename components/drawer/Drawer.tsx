@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { useDrawer } from "@/lib/drawer";
+import { EventDrawer } from "./EventDrawer";
 import { LinkDrawer } from "./LinkDrawer";
 import { NodeDrawer } from "./NodeDrawer";
 
@@ -43,7 +44,7 @@ export function Drawer() {
       </div>
       {target.kind === "node" && <NodeDrawer id={target.id} />}
       {target.kind === "link" && <LinkDrawer id={target.id} />}
-      {target.kind === "event" && <p className="text-muted">Event {target.id}</p>}
+      {target.kind === "event" && <EventDrawer id={target.id} />}
       {target.kind === "candidate" && <p className="text-muted">Candidate {target.id}</p>}
     </div>
   );
