@@ -23,3 +23,14 @@ export const useFilters = create<FilterState>((set) => ({
   setZone: (zone) => set({ zone }),
   setTier: (tier) => set({ tier }),
 }));
+
+/** Does a scored node pass the global header filters? */
+export function passesFilters(
+  n: { exposure: Record<ProductId, number>; input: { zone: string; tier: number } },
+  f: Pick<FilterState, "product" | "zone" | "tier">,
+): boolean {
+  if (f.product !== "all" && !(n.exposure[f.product] > 0)) return false;
+  if (f.zone !== "all" && !n.input.zone.split("/").includes(f.zone)) return false;
+  if (f.tier !== "all" && n.input.tier !== f.tier) return false;
+  return true;
+}

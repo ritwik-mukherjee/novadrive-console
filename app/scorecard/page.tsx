@@ -1,5 +1,5 @@
-import { Pending } from "@/components/ui/Pending";
+import { ScorecardView } from "@/components/scorecard/ScorecardView";
 
 export default function Page() {
-  return <Pending step={4} what="All 25 nodes with live weights, scenario presets and the impact × vulnerability chart." />;
+  return <ScorecardView />;
 }
