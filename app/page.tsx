@@ -1,5 +1,5 @@
-import { Pending } from "@/components/ui/Pending";
+import { OverviewView } from "@/components/overview/OverviewView";
 
 export default function Page() {
-  return <Pending step={9} what="CRO cockpit: headline banner, KPI strip, top-10 priorities, live alerts and mini network." />;
+  return <OverviewView />;
 }

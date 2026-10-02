@@ -1,5 +1,5 @@
-import { Pending } from "@/components/ui/Pending";
+import { EvidenceView } from "@/components/evidence/EvidenceView";
 
 export default function Page() {
-  return <Pending step={9} what="All 59 evidence records, grouped by source family and link, plus the traps we caught." />;
+  return <EvidenceView />;
 }
