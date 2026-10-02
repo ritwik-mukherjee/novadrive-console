@@ -43,3 +43,7 @@ next-env.d.ts
 # local agent notes (not part of the product)
 CLAUDE.md
 !.env.example
+
+# playwright
+/test-results/
+/playwright-report/

@@ -12,6 +12,11 @@ The source of truth is `source/NovaDrive_Supplier_Risk_Model.xlsx` (the mother w
 | `npm test` | Engine parity suite (Vitest) |
 | `npm run dev` | Local app at http://localhost:3000 |
 | `npm run typecheck` | TypeScript check |
+| `npm run e2e` | Playwright demo-path test (uses the installed Chrome) |
+
+## Live supplier search (optional)
+
+The Alternates screen can search current public sources through `app/api/alternates/search/route.ts`. It needs `ANTHROPIC_API_KEY`, which is read on the server only and never sent to the browser (see `.env.example`). Without a key, the route returns "not configured" and the console keeps the curated shortlist. Everything else works offline from the bundled JSON.
 
 ## Layout
 
