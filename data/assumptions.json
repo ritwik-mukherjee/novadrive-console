@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": "P1",
+      "name": "DriveCore industrial inverter",
+      "revenue": 624,
+      "weeklyUnits": 2000,
+      "footprint": "Harbor Works (60%); Plateau Works (40%)"
+    },
+    {
+      "id": "P2",
+      "name": "ChargeBridge charging power unit",
+      "revenue": 520,
+      "weeklyUnits": 1000,
+      "footprint": "Harbor Works (30%); Coastal Works (70%)"
+    },
+    {
+      "id": "P3",
+      "name": "StoreLink storage control cabinet",
+      "revenue": 416,
+      "weeklyUnits": 800,
+      "footprint": "Plateau Works (100%)"
+    }
+  ],
+  "totalRevenue": 1560,
+  "weights": {
+    "vuln": {
+      "financial": 0.3,
+      "operational": 0.3,
+      "assurance": 0.15,
+      "geographic": 0.25
+    },
+    "finSplit": {
+      "leverage": 0.5,
+      "liquidity": 0.5
+    },
+    "opSplit": {
+      "level": 0.5,
+      "trend": 0.5
+    },
+    "overlayPoints": 10,
+    "impact": {
+      "revenue": 0.5,
+      "recovery": 0.3,
+      "centrality": 0.2
+    },
+    "imputePercentile": 0.75
+  },
+  "ttrCap": 36,
+  "centralityMax": 3,
+  "curves": {
+    "leverage": {
+      "x": [
+        0,
+        1.25,
+        2.5,
+        4,
+        5.5,
+        7
+      ],
+      "y": [
+        0,
+        15,
+        30,
+        70,
+        85,
+        100
+      ],
+      "basis": "Bands from team research: <2.5x safe, 2.5-4.0x at risk, >4.0x escalation"
+    },
+    "liquidity": {
+      "x": [
+        0.5,
+        0.75,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "y": [
+        100,
+        85,
+        70,
+        30,
+        15,
+        0
+      ],
+      "basis": "≥1.5x safe, 1.0-1.49x at risk, <0.8x critical"
+    },
+    "otdLevel": {
+      "x": [
+        75,
+        80,
+        85,
+        90,
+        92.5,
+        95
+      ],
+      "y": [
+        100,
+        75,
+        50,
+        25,
+        12.5,
+        0
+      ],
+      "basis": "OTD penalty ladder from team research (95% = stable)"
+    },
+    "otdTrend": {
+      "x": [
+        -15,
+        -10,
+        -5,
+        -2,
+        0,
+        2
+      ],
+      "y": [
+        100,
+        80,
+        55,
+        35,
+        20,
+        0
+      ],
+      "basis": "Decline >15pp = critical; improvement = no penalty"
+    }
+  },
+  "bands": {
+    "critical": 45,
+    "high": 30,
+    "elevated": 20
+  },
+  "quadrant": {
+    "impactHigh": 60,
+    "vulnHigh": 45
+  },
+  "confidence": {
+    "high": 5,
+    "medium": 3
+  },
+  "fitment": {
+    "weights": {
+      "technical": 0.25,
+      "application": 0.2,
+      "footprint": 0.2,
+      "scale": 0.15,
+      "presence": 0.1,
+      "qualEase": 0.1
+    },
+    "shortlist": 75,
+    "reserve": 60
+  },
+  "alert": {
+    "high": 35,
+    "medium": 15,
+    "low": 5,
+    "staleDays": 90
+  },
+  "dates": {
+    "caseCutoff": "2025-09-30",
+    "researchAsOf": "2026-10-02"
+  }
+}

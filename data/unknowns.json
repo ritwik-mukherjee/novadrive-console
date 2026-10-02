@@ -1,0 +1,110 @@
+[
+  {
+    "n": 1,
+    "unknown": "Is Meridian Delta's ONLY dielectric-film source?",
+    "decision": "Whether EV-003 threatens 73% of revenue or a fraction",
+    "nodes": "Meridian, Delta",
+    "resolve": "Ask Delta for film-source split + inventory (48h)",
+    "owner": "Passives lead",
+    "priority": "P1"
+  },
+  {
+    "n": 2,
+    "unknown": "Is NovaDrive's die family Si IGBT, SiC, or both?",
+    "decision": "Whether Umber (SiC wafers) is truly in the critical path – it ranks #1 on an UPPER-BOUND assumption",
+    "nodes": "Umber, IonPeak",
+    "resolve": "Engineering BOM review of M10 vs M20 die types",
+    "owner": "Power-electronics engineering",
+    "priority": "P1"
+  },
+  {
+    "n": 3,
+    "unknown": "Inventory / weeks of cover at every tier",
+    "decision": "Converts time-to-recover into time-to-survive; sizes buffers",
+    "nodes": "All",
+    "resolve": "Inventory census via Tier-1s",
+    "owner": "Supply chain planning",
+    "priority": "P1"
+  },
+  {
+    "n": 4,
+    "unknown": "Which zone are NovaDrive's own plants (Harbor, Plateau, Coastal Works) in?",
+    "decision": "Whether events hit our own factories; avoids confusing Harbor Freight's \"Harbor Works\" site",
+    "nodes": "NovaDrive plants",
+    "resolve": "Internal facility register",
+    "owner": "CRO office",
+    "priority": "P1"
+  },
+  {
+    "n": 5,
+    "unknown": "Where is \"Gulf Arc\" and which lanes use it?",
+    "decision": "Whether EV-010 touches a single-source lane",
+    "nodes": "Tier-1 ocean lanes",
+    "resolve": "Forwarder booking data",
+    "owner": "Logistics lead",
+    "priority": "P2"
+  },
+  {
+    "n": 6,
+    "unknown": "Can Boreal absorb Aster's M10/M20 volume (and vice versa)?",
+    "decision": "Real value of the intra-CommonSpan split",
+    "nodes": "Aster, Boreal",
+    "resolve": "Capacity statement from CommonSpan",
+    "owner": "Category lead",
+    "priority": "P2"
+  },
+  {
+    "n": 7,
+    "unknown": "Sole-source status of Orion, Lumen, Kestrel, Rill, Nacre, Pine, Quartz",
+    "decision": "Presumed-sole links drive upper-bound exposure",
+    "nodes": "Tier-2",
+    "resolve": "N-tier disclosure request",
+    "owner": "Risk analyst",
+    "priority": "P2"
+  },
+  {
+    "n": 8,
+    "unknown": "HarborSense MCU source (not disclosed)",
+    "decision": "Whether B10 has MCU independence",
+    "nodes": "HarborSense, Kestrel",
+    "resolve": "Ask HarborSense",
+    "owner": "Electronics lead",
+    "priority": "P3"
+  },
+  {
+    "n": 9,
+    "unknown": "Does NovaDrive own the C10 data pack?",
+    "decision": "Whether a second EMS is a real alternate",
+    "nodes": "Cobalt",
+    "resolve": "Contract & PLM review",
+    "owner": "Legal + engineering",
+    "priority": "P1"
+  },
+  {
+    "n": 10,
+    "unknown": "Verdant scope (process gases, inferred link)",
+    "decision": "Keep or drop the Tier-3 node",
+    "nodes": "Verdant",
+    "resolve": "Ask IonPeak via Aster",
+    "owner": "Risk analyst",
+    "priority": "P3"
+  },
+  {
+    "n": 11,
+    "unknown": "Tier-2/3 behind Estuary, ForgeLine and Cobalt beyond the mapped inputs",
+    "decision": "Completeness of the map",
+    "nodes": "Estuary, ForgeLine, Cobalt",
+    "resolve": "N-tier survey",
+    "owner": "Risk analyst",
+    "priority": "P3"
+  },
+  {
+    "n": 12,
+    "unknown": "Solace Optics – will the Grove sample become a serial award?",
+    "decision": "Possible future B10 Tier-2 (Z08)",
+    "nodes": "Solace, Grove",
+    "resolve": "Track Grove award notices",
+    "owner": "Risk analyst",
+    "priority": "P3"
+  }
+]

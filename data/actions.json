@@ -1,0 +1,156 @@
+[
+  {
+    "n": 1,
+    "horizon": "0-14 days: RESPOND",
+    "phase": "Respond",
+    "action": "Z01 census: through Aster, Boreal, Cobalt, Grove and HarborSense confirm SITE-074/081/116 status and weeks of die & substrate cover (on hand + in transit via Harbor Freight); request pull-forward shipments out of Z01.",
+    "addresses": "IonPeak, Jade, Orion · EV-001",
+    "owner": "CRO + power-electronics category lead",
+    "kpi": "Weeks of cover known for 100% of M10/M20/C10/B10 within 72h",
+    "effort": "L",
+    "valueNodeId": "ORG-439"
+  },
+  {
+    "n": 2,
+    "horizon": "0-14 days: RESPOND",
+    "phase": "Respond",
+    "action": "Meridian: obtain Delta's film-source split and film inventory; raise C20 finished-goods buffer to ≥ 8 weeks (= C20 qualification lead time).",
+    "addresses": "Meridian → Delta · EV-003",
+    "owner": "Passives category lead",
+    "kpi": "C20 cover ≥ 8 weeks; film-source split disclosed",
+    "effort": "L",
+    "valueNodeId": "ORG-210"
+  },
+  {
+    "n": 3,
+    "horizon": "0-14 days: RESPOND",
+    "phase": "Respond",
+    "action": "N-tier disclosure request to all 8 Tier-1s, prioritising presumed-sole links (Umber, Verdant, Orion, Lumen, Kestrel, Warden, Xenon, Meridian).",
+    "addresses": "All presumed-sole nodes",
+    "owner": "Supplier risk analyst",
+    "kpi": "% of material links at grade A/B ≥ 90%; Low-confidence nodes halved",
+    "effort": "L",
+    "valueNodeId": "ORG-455"
+  },
+  {
+    "n": 4,
+    "horizon": "0-14 days: RESPOND",
+    "phase": "Respond",
+    "action": "Entity master-data hygiene: registry number, facility role and zone on every node; block keyword-only matching (\"Ion Peak\", \"Delta\", \"Harbor Works\").",
+    "addresses": "EV-004, EV-007, EV-009",
+    "owner": "Supplier master data",
+    "kpi": "Zero false-positive alerts from name collisions",
+    "effort": "L",
+    "valueNodeId": null
+  },
+  {
+    "n": 5,
+    "horizon": "15-90 days: HEDGE",
+    "phase": "Hedge",
+    "action": "Qualify a second Tier-1 C20 source (TDK B25696H / Vishay MKP1848e) – cheapest, fastest hedge in the network (8-week qualification).",
+    "addresses": "Delta / Meridian",
+    "owner": "Passives category lead + design engineering",
+    "kpi": "Second C20 source released by ~day 70",
+    "effort": "M",
+    "valueNodeId": "ORG-210"
+  },
+  {
+    "n": 6,
+    "horizon": "15-90 days: HEDGE",
+    "phase": "Hedge",
+    "action": "Secure NovaDrive ownership of the C10 data pack (Gerbers, BOM/AVL, firmware, test fixtures) from Cobalt, then release a second EMS site (Sanmina / Celestica / Kitron).",
+    "addresses": "Cobalt (100% of revenue)",
+    "owner": "Electronics category lead",
+    "kpi": "Data pack in NovaDrive vault; 2nd EMS FAI passed",
+    "effort": "M",
+    "valueNodeId": "ORG-119"
+  },
+  {
+    "n": 7,
+    "horizon": "15-90 days: HEDGE",
+    "phase": "Hedge",
+    "action": "Strategic die bank of 12-16 weeks held OUTSIDE Z01 at Aster/Boreal (negotiate with CommonSpan); bridges the gap until an alternate die/module route is qualified.",
+    "addresses": "IonPeak / CommonSpan",
+    "owner": "CRO + finance (working capital)",
+    "kpi": "Die cover ≥ 12 weeks outside Z01",
+    "effort": "M",
+    "valueNodeId": "ORG-439"
+  },
+  {
+    "n": 8,
+    "horizon": "15-90 days: HEDGE",
+    "phase": "Hedge",
+    "action": "Second PCB substrate fab outside Z01 (Schweizer / TTM) qualified for C10 first, then B10.",
+    "addresses": "Jade",
+    "owner": "Electronics category lead",
+    "kpi": "Second substrate qualified for C10",
+    "effort": "M",
+    "valueNodeId": "ORG-453"
+  },
+  {
+    "n": 9,
+    "horizon": "15-90 days: HEDGE",
+    "phase": "Hedge",
+    "action": "Supplier corrective action plan for Cobalt (OTD 83.3%, −2.3pp; net debt/EBITDA 4.0x).",
+    "addresses": "Cobalt",
+    "owner": "Supplier quality",
+    "kpi": "OTD ≥ 90% for 3 consecutive months",
+    "effort": "L",
+    "valueNodeId": "ORG-119"
+  },
+  {
+    "n": 10,
+    "horizon": "3-12 months: RESTRUCTURE",
+    "phase": "Restructure",
+    "action": "Second power-module platform independent of CommonSpan AND IonPeak/Orion: M10 via Semikron Danfoss stacks or Infineon/Mitsubishi/Fuji modules; M20 via SiC modules (Vincotech/Infineon). Engineer as a platform (common DC bus, gate-drive, pin-out adapter, cold plate).",
+    "addresses": "CommonSpan, IonPeak, Orion, Lumen",
+    "owner": "CTO + CRO",
+    "kpi": "Second platform PPAP approved; die N_eff ≥ 2",
+    "effort": "H",
+    "valueNodeId": "ORG-268"
+  },
+  {
+    "n": 11,
+    "horizon": "3-12 months: RESTRUCTURE",
+    "phase": "Restructure",
+    "action": "Design a second MCU footprint / firmware abstraction layer into the next C10 and B10 revisions.",
+    "addresses": "Kestrel",
+    "owner": "Embedded engineering",
+    "kpi": "Dual-MCU BOM released",
+    "effort": "M",
+    "valueNodeId": "ORG-728"
+  },
+  {
+    "n": 12,
+    "horizon": "3-12 months: RESTRUCTURE",
+    "phase": "Restructure",
+    "action": "Only rebalance B10 80/20 → 50/50 after substrate independence; until then the split is cosmetic.",
+    "addresses": "Grove / HarborSense / Jade",
+    "owner": "Electronics category lead",
+    "kpi": "B10 substrate N_eff ≥ 2",
+    "effort": "L",
+    "valueNodeId": "ORG-103"
+  },
+  {
+    "n": 13,
+    "horizon": "3-12 months: RESTRUCTURE",
+    "phase": "Restructure",
+    "action": "Contract clauses for all critical suppliers: sub-tier disclosure, PCN on fab/die/film/site change, BCP with recovery-time objective, capacity reservation, last-time-buy rights.",
+    "addresses": "All Tier-1",
+    "owner": "Legal + procurement",
+    "kpi": "Clauses in 100% of renewals (current awards expire 31-Dec-2026)",
+    "effort": "L",
+    "valueNodeId": null
+  },
+  {
+    "n": 14,
+    "horizon": "Ongoing: GOVERN",
+    "phase": "Govern",
+    "action": "Monthly CRO risk council: refresh scorecard; alert SLA – HIGH acknowledged in 24h; quarterly N-tier map refresh with confidence targets.",
+    "addresses": "Whole network",
+    "owner": "CRO",
+    "kpi": "Scorecard refreshed monthly; alert SLA met",
+    "effort": "L",
+    "valueNodeId": null
+  }
+]

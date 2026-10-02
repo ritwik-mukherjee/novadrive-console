@@ -1,0 +1,84 @@
+[
+  {
+    "id": "M10",
+    "name": "Standard power assembly",
+    "application": "Industrial inverter power assembly; IGBT/SiC-capable module integration",
+    "leadTimeWeeks": 16,
+    "products": [
+      "P1",
+      "P3"
+    ],
+    "useCase": "Industrial drives / power conversion",
+    "screeningCriteria": "Search for manufacturers with comparable power-module assembly capability; technical qualification remains required."
+  },
+  {
+    "id": "M20",
+    "name": "High-voltage power assembly",
+    "application": "High-voltage power assembly for charging power conversion; IGBT/SiC-capable",
+    "leadTimeWeeks": 16,
+    "products": [
+      "P2"
+    ],
+    "useCase": "EV / industrial charging power conversion",
+    "screeningCriteria": "Assess voltage/current class, thermal design, quality systems and production scale before treating any candidate as a substitute."
+  },
+  {
+    "id": "C10",
+    "name": "Control board",
+    "application": "Industrial control PCB/PCBA with embedded microcontroller and power-control interfaces",
+    "leadTimeWeeks": 12,
+    "products": [
+      "P1",
+      "P2",
+      "P3"
+    ],
+    "useCase": "Industrial electronics / power control",
+    "screeningCriteria": "Look for design-and-manufacture capability, industrial quality systems, controller ecosystem and production footprint."
+  },
+  {
+    "id": "C20",
+    "name": "DC-link capacitor",
+    "application": "High-energy DC-link film capacitor for power-electronics applications",
+    "leadTimeWeeks": 8,
+    "products": [
+      "P1",
+      "P2"
+    ],
+    "useCase": "Inverters / power conversion",
+    "screeningCriteria": "Fit depends on electrical, thermal, lifetime and packaging requirements; public similarity is only an initial screen."
+  },
+  {
+    "id": "H10",
+    "name": "Protective housing",
+    "application": "Machined/fabricated aluminum enclosure for industrial power electronics",
+    "leadTimeWeeks": 4,
+    "products": [
+      "P1"
+    ],
+    "useCase": "Industrial electronics enclosure",
+    "screeningCriteria": "Assess material, tolerance, environmental protection, tooling and regional manufacturing capability."
+  },
+  {
+    "id": "H20",
+    "name": "Cooling assembly",
+    "application": "Thermal-management / liquid-cooling assembly for power electronics",
+    "leadTimeWeeks": 6,
+    "products": [
+      "P2",
+      "P3"
+    ],
+    "useCase": "Power electronics thermal management",
+    "screeningCriteria": "Assess thermal performance, materials, leak/reliability testing, scale and geographic suitability."
+  },
+  {
+    "id": "B10",
+    "name": "Battery-monitoring board",
+    "application": "Battery-monitoring/control PCBA with sensing and embedded electronics",
+    "leadTimeWeeks": 12,
+    "products": [
+      "P3"
+    ],
+    "useCase": "Battery systems / energy storage electronics",
+    "screeningCriteria": "Assess battery-control experience, electronics manufacturing capability, safety/quality systems and production scale."
+  }
+]

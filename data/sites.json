@@ -1,0 +1,282 @@
+[
+  {
+    "id": "SITE-018",
+    "name": "Aster Works",
+    "entityId": "ORG-247",
+    "zone": "Z02",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-025",
+    "name": "Boreal Works",
+    "entityId": "ORG-725",
+    "zone": "Z05",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-032",
+    "name": "Cobalt Works",
+    "entityId": "ORG-119",
+    "zone": "Z04",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-221",
+    "name": "CommonSpan Works",
+    "entityId": "ORG-268",
+    "zone": "Z05",
+    "role": "hq",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-039",
+    "name": "Delta Works",
+    "entityId": "ORG-922",
+    "zone": "Z03",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-249",
+    "name": "Delta Works",
+    "entityId": "ORG-857",
+    "zone": "Z02",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-046",
+    "name": "Estuary Works",
+    "entityId": "ORG-786",
+    "zone": "Z06",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-053",
+    "name": "ForgeLine Works",
+    "entityId": "ORG-287",
+    "zone": "Z02",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-060",
+    "name": "Grove Works",
+    "entityId": "ORG-103",
+    "zone": "Z04",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-242",
+    "name": "Harbor Works",
+    "entityId": "ORG-328",
+    "zone": "Z07",
+    "role": "logistics",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-067",
+    "name": "HarborSense Works",
+    "entityId": "ORG-176",
+    "zone": "Z05",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-207",
+    "name": "Ion Works",
+    "entityId": "ORG-309",
+    "zone": "Z07",
+    "role": "logistics",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-074",
+    "name": "IonPeak Works",
+    "entityId": "ORG-439",
+    "zone": "Z01",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-900",
+    "name": "IonPeak Western Development Center",
+    "entityId": "ORG-439",
+    "zone": "Z05",
+    "role": "pilot",
+    "source": "Case Supplier Universe – other known site: Research and pilot line"
+  },
+  {
+    "id": "SITE-214",
+    "name": "Jade Works",
+    "entityId": "ORG-445",
+    "zone": "Z07",
+    "role": "hq",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-081",
+    "name": "Jade Works",
+    "entityId": "ORG-453",
+    "zone": "Z01",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-901",
+    "name": "Jade Corporate Office",
+    "entityId": "ORG-453",
+    "zone": "Z07",
+    "role": "hq",
+    "source": "Case Supplier Universe – other known site: Headquarters only"
+  },
+  {
+    "id": "SITE-088",
+    "name": "Kestrel Works",
+    "entityId": "ORG-728",
+    "zone": "Z05",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-095",
+    "name": "Lumen Works",
+    "entityId": "ORG-942",
+    "zone": "Z04",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-102",
+    "name": "Meridian Works",
+    "entityId": "ORG-210",
+    "zone": "Z03",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-109",
+    "name": "Nacre Works",
+    "entityId": "ORG-849",
+    "zone": "Z06",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-116",
+    "name": "Orion Works",
+    "entityId": "ORG-708",
+    "zone": "Z01",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-123",
+    "name": "Pine Works",
+    "entityId": "ORG-274",
+    "zone": "Z06",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-130",
+    "name": "Quartz Works",
+    "entityId": "ORG-329",
+    "zone": "Z02",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-137",
+    "name": "Rill Works",
+    "entityId": "ORG-469",
+    "zone": "Z04",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-144",
+    "name": "Solace Works",
+    "entityId": "ORG-320",
+    "zone": "Z08",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-158",
+    "name": "Umber Works",
+    "entityId": "ORG-455",
+    "zone": "Z01",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-165",
+    "name": "Verdant Works",
+    "entityId": "ORG-736",
+    "zone": "Z01",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-172",
+    "name": "Warden Works",
+    "entityId": "ORG-873",
+    "zone": "Z06",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-179",
+    "name": "Xenon Works",
+    "entityId": "ORG-179",
+    "zone": "Z04",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-186",
+    "name": "Yarrow Works",
+    "entityId": "ORG-520",
+    "zone": "Z08",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "SITE-193",
+    "name": "Zenith Works",
+    "entityId": "ORG-659",
+    "zone": "Z03",
+    "role": "production",
+    "source": "Case Supplier Universe – primary facility"
+  },
+  {
+    "id": "NOVADRIVE-HARBOR-WORKS",
+    "name": "Harbor Works",
+    "entityId": "NOVADRIVE",
+    "zone": null,
+    "role": "own-plant",
+    "source": "Case Business Context – NovaDrive manufacturing footprint (zone not disclosed)"
+  },
+  {
+    "id": "NOVADRIVE-PLATEAU-WORKS",
+    "name": "Plateau Works",
+    "entityId": "NOVADRIVE",
+    "zone": null,
+    "role": "own-plant",
+    "source": "Case Business Context – NovaDrive manufacturing footprint (zone not disclosed)"
+  },
+  {
+    "id": "NOVADRIVE-COASTAL-WORKS",
+    "name": "Coastal Works",
+    "entityId": "NOVADRIVE",
+    "zone": null,
+    "role": "own-plant",
+    "source": "Case Business Context – NovaDrive manufacturing footprint (zone not disclosed)"
+  }
+]

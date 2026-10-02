@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "L01",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-247",
+    "supplierName": "Aster Power Assemblies Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "M10",
+    "products": "P1,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": 0.6,
+    "siteId": "SITE-018",
+    "zone": "Z02",
+    "evidence": [
+      {
+        "id": "DOC-001",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-002",
+        "corroborating": false
+      },
+      {
+        "id": "SHP-00002",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 3,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Allocation is a planning share, not realised deliveries."
+  },
+  {
+    "id": "L02",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-247",
+    "supplierName": "Aster Power Assemblies Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "M20",
+    "products": "P2",
+    "productFlags": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 0
+    },
+    "allocation": 0.7,
+    "siteId": "SITE-018",
+    "zone": "Z02",
+    "evidence": [
+      {
+        "id": "DOC-003",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-004",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Allocation is a planning share, not realised deliveries."
+  },
+  {
+    "id": "L03",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-725",
+    "supplierName": "Boreal Power Systems Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "M10",
+    "products": "P1,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": 0.4,
+    "siteId": "SITE-025",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-005",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-006",
+        "corroborating": false
+      },
+      {
+        "id": "SHP-00025",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 3,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Allocation is a planning share, not realised deliveries."
+  },
+  {
+    "id": "L04",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-725",
+    "supplierName": "Boreal Power Systems Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "M20",
+    "products": "P2",
+    "productFlags": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 0
+    },
+    "allocation": 0.3,
+    "siteId": "SITE-025",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-007",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-008",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Allocation is a planning share, not realised deliveries."
+  },
+  {
+    "id": "L05",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-119",
+    "supplierName": "Cobalt Control Electronics Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "C10",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": 1,
+    "siteId": "SITE-032",
+    "zone": "Z04",
+    "evidence": [
+      {
+        "id": "DOC-009",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-010",
+        "corroborating": false
+      },
+      {
+        "id": "SHP-00050",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 3,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Sole Tier-1 source (100% allocation)."
+  },
+  {
+    "id": "L06",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-922",
+    "supplierName": "Delta Capacitor Works Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "C20",
+    "products": "P1,P2",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 0
+    },
+    "allocation": 1,
+    "siteId": "SITE-039",
+    "zone": "Z03",
+    "evidence": [
+      {
+        "id": "DOC-011",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-012",
+        "corroborating": false
+      },
+      {
+        "id": "SHP-00062",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 3,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Sole Tier-1 source (100% allocation)."
+  },
+  {
+    "id": "L07",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-786",
+    "supplierName": "Estuary Thermal Systems Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "H20",
+    "products": "P2,P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": 1,
+    "siteId": "SITE-046",
+    "zone": "Z06",
+    "evidence": [
+      {
+        "id": "DOC-013",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-014",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Sole Tier-1 source (100% allocation)."
+  },
+  {
+    "id": "L08",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-287",
+    "supplierName": "ForgeLine Enclosures Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "H10",
+    "products": "P1",
+    "productFlags": {
+      "P1": 1,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": 1,
+    "siteId": "SITE-053",
+    "zone": "Z02",
+    "evidence": [
+      {
+        "id": "DOC-015",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-016",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Sole Tier-1 source (100% allocation)."
+  },
+  {
+    "id": "L09",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-103",
+    "supplierName": "Grove Battery Controls Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "B10",
+    "products": "P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": 0.8,
+    "siteId": "SITE-060",
+    "zone": "Z04",
+    "evidence": [
+      {
+        "id": "DOC-017",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-018",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Allocation is a planning share, not realised deliveries."
+  },
+  {
+    "id": "L10",
+    "type": "Tier-1 supply",
+    "supplierTier": 1,
+    "supplierId": "ORG-176",
+    "supplierName": "HarborSense Electronics Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "B10",
+    "products": "P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": 0.2,
+    "siteId": "SITE-067",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-019",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-020",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Allocation is a planning share, not realised deliveries."
+  },
+  {
+    "id": "L11",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-439",
+    "supplierName": "IonPeak Semiconductor Ltd.",
+    "customerId": "ORG-247",
+    "customerName": "Aster Power Assemblies Ltd.",
+    "input": "Power semiconductor dies → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-074",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-021",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-077",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-078",
+        "corroborating": false
+      },
+      {
+        "id": "SHP-00125",
+        "corroborating": true
+      }
+    ],
+    "sourceFamilyCount": 3,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Sole qualified die source for BOTH assemblers (DOC-078)."
+  },
+  {
+    "id": "L12",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-439",
+    "supplierName": "IonPeak Semiconductor Ltd.",
+    "customerId": "ORG-725",
+    "customerName": "Boreal Power Systems Ltd.",
+    "input": "Power semiconductor dies → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-074",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-023",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-077",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-078",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 3,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Same die family as Aster – no independence."
+  },
+  {
+    "id": "L13",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-942",
+    "supplierName": "Lumen Magnetics Ltd.",
+    "customerId": "ORG-247",
+    "customerName": "Aster Power Assemblies Ltd.",
+    "input": "Magnetic cores → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-095",
+    "zone": "Z04",
+    "evidence": [
+      {
+        "id": "DOC-035",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "Common to both assemblers; sole status not disclosed."
+  },
+  {
+    "id": "L14",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-942",
+    "supplierName": "Lumen Magnetics Ltd.",
+    "customerId": "ORG-725",
+    "customerName": "Boreal Power Systems Ltd.",
+    "input": "Magnetic cores → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-095",
+    "zone": "Z04",
+    "evidence": [
+      {
+        "id": "DOC-037",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L15",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-708",
+    "supplierName": "Orion Ceramics Ltd.",
+    "customerId": "ORG-247",
+    "customerName": "Aster Power Assemblies Ltd.",
+    "input": "Ceramic substrates → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-116",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-043",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "Common to both assemblers; Z01 site."
+  },
+  {
+    "id": "L16",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-708",
+    "supplierName": "Orion Ceramics Ltd.",
+    "customerId": "ORG-725",
+    "customerName": "Boreal Power Systems Ltd.",
+    "input": "Ceramic substrates → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-116",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-045",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L17",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-453",
+    "supplierName": "Jade Printed Circuits Ltd.",
+    "customerId": "ORG-119",
+    "customerName": "Cobalt Control Electronics Ltd.",
+    "input": "Printed circuit substrates → C10",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-081",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-025",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-079",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Programme-specific; no qualified alternative (DOC-079)."
+  },
+  {
+    "id": "L18",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-453",
+    "supplierName": "Jade Printed Circuits Ltd.",
+    "customerId": "ORG-103",
+    "customerName": "Grove Battery Controls Ltd.",
+    "input": "Printed circuit substrates → B10",
+    "products": "P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-081",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-027",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-079",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L19",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-453",
+    "supplierName": "Jade Printed Circuits Ltd.",
+    "customerId": "ORG-176",
+    "customerName": "HarborSense Electronics Ltd.",
+    "input": "Printed circuit substrates → B10",
+    "products": "P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-081",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-029",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-079",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Confirmed",
+    "grade": "A",
+    "include": true,
+    "notes": "Makes B10 80/20 split illusory at substrate level."
+  },
+  {
+    "id": "L20",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-728",
+    "supplierName": "Kestrel Microdevices Ltd.",
+    "customerId": "ORG-119",
+    "customerName": "Cobalt Control Electronics Ltd.",
+    "input": "Microcontrollers → C10",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-088",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-031",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "MCU swap = firmware port (long TTR)."
+  },
+  {
+    "id": "L21",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-728",
+    "supplierName": "Kestrel Microdevices Ltd.",
+    "customerId": "ORG-103",
+    "customerName": "Grove Battery Controls Ltd.",
+    "input": "Microcontrollers → B10",
+    "products": "P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-088",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-033",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "HarborSense MCU source not disclosed."
+  },
+  {
+    "id": "L22",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-469",
+    "supplierName": "Rill Connectors Ltd.",
+    "customerId": "ORG-119",
+    "customerName": "Cobalt Control Electronics Ltd.",
+    "input": "Connectors → C10",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-137",
+    "zone": "Z04",
+    "evidence": [
+      {
+        "id": "DOC-051",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L23",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-210",
+    "supplierName": "Meridian Dielectrics Ltd.",
+    "customerId": "ORG-922",
+    "customerName": "Delta Capacitor Works Ltd.",
+    "input": "Dielectric film → C20",
+    "products": "P1,P2",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-102",
+    "zone": "Z03",
+    "evidence": [
+      {
+        "id": "DOC-039",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "Financially distressed (EV-003). Whether Delta has a 2nd film source is UNKNOWN."
+  },
+  {
+    "id": "L24",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-849",
+    "supplierName": "Nacre Foils Ltd.",
+    "customerId": "ORG-922",
+    "customerName": "Delta Capacitor Works Ltd.",
+    "input": "Aluminum foil → C20",
+    "products": "P1,P2",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-109",
+    "zone": "Z06",
+    "evidence": [
+      {
+        "id": "DOC-041",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L25",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-274",
+    "supplierName": "Pine Thermal Metals Ltd.",
+    "customerId": "ORG-786",
+    "customerName": "Estuary Thermal Systems Ltd.",
+    "input": "Thermal metals → H20",
+    "products": "P2,P3",
+    "productFlags": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-123",
+    "zone": "Z06",
+    "evidence": [
+      {
+        "id": "DOC-047",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L26",
+    "type": "Tier-2 supply",
+    "supplierTier": 2,
+    "supplierId": "ORG-329",
+    "supplierName": "Quartz Alloy Ltd.",
+    "customerId": "ORG-287",
+    "customerName": "ForgeLine Enclosures Ltd.",
+    "input": "Aluminum alloy → H10",
+    "products": "P1",
+    "productFlags": {
+      "P1": 1,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-130",
+    "zone": "Z02",
+    "evidence": [
+      {
+        "id": "DOC-049",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L27",
+    "type": "Tier-3 supply",
+    "supplierTier": 3,
+    "supplierId": "ORG-455",
+    "supplierName": "Umber Silicon Carbide Ltd.",
+    "customerId": "ORG-439",
+    "customerName": "IonPeak Semiconductor Ltd.",
+    "input": "Silicon-carbide wafers → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-158",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-056",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "Relevance depends on whether NovaDrive die family is SiC or Si IGBT – verify."
+  },
+  {
+    "id": "L28",
+    "type": "Tier-3 supply",
+    "supplierTier": 3,
+    "supplierId": "ORG-736",
+    "supplierName": "Verdant Process Gases Ltd.",
+    "customerId": "ORG-439",
+    "customerName": "IonPeak Semiconductor Ltd.",
+    "input": "Process gases → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-165",
+    "zone": "Z01",
+    "evidence": [
+      {
+        "id": "DOC-058",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Inferred",
+    "grade": "C",
+    "include": true,
+    "notes": "Customer index only; receiving line not identified."
+  },
+  {
+    "id": "L29",
+    "type": "Tier-3 supply",
+    "supplierTier": 3,
+    "supplierId": "ORG-520",
+    "supplierName": "Yarrow Specialty Minerals Ltd.",
+    "customerId": "ORG-708",
+    "customerName": "Orion Ceramics Ltd.",
+    "input": "Specialty minerals → M10/M20",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-186",
+    "zone": "Z08",
+    "evidence": [
+      {
+        "id": "DOC-066",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L30",
+    "type": "Tier-3 supply",
+    "supplierTier": 3,
+    "supplierId": "ORG-873",
+    "supplierName": "Warden Copper Foil Ltd.",
+    "customerId": "ORG-453",
+    "customerName": "Jade Printed Circuits Ltd.",
+    "input": "Copper foil → C10/B10",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-172",
+    "zone": "Z06",
+    "evidence": [
+      {
+        "id": "DOC-060",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L31",
+    "type": "Tier-3 supply",
+    "supplierTier": 3,
+    "supplierId": "ORG-179",
+    "supplierName": "Xenon Resin Ltd.",
+    "customerId": "ORG-453",
+    "customerName": "Jade Printed Circuits Ltd.",
+    "input": "Resin → C10/B10",
+    "products": "P1,P2,P3",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 1
+    },
+    "allocation": null,
+    "siteId": "SITE-179",
+    "zone": "Z04",
+    "evidence": [
+      {
+        "id": "DOC-064",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": ""
+  },
+  {
+    "id": "L32",
+    "type": "Tier-3 supply",
+    "supplierTier": 3,
+    "supplierId": "ORG-659",
+    "supplierName": "Zenith Polymer Ltd.",
+    "customerId": "ORG-210",
+    "customerName": "Meridian Dielectrics Ltd.",
+    "input": "Polymer → C20",
+    "products": "P1,P2",
+    "productFlags": {
+      "P1": 1,
+      "P2": 1,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-193",
+    "zone": "Z03",
+    "evidence": [
+      {
+        "id": "DOC-070",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Confirmed",
+    "grade": "B",
+    "include": true,
+    "notes": "Feeds the distressed Meridian."
+  },
+  {
+    "id": "L33",
+    "type": "Hypothesis",
+    "supplierTier": null,
+    "supplierId": "ORG-320",
+    "supplierName": "Solace Optics Ltd.",
+    "customerId": "ORG-103",
+    "customerName": "Grove Battery Controls Ltd.",
+    "input": "Isolation optics (sample only)",
+    "products": "B10",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-144",
+    "zone": "Z08",
+    "evidence": [
+      {
+        "id": "DOC-085",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Hypothesis",
+    "grade": "D",
+    "include": false,
+    "notes": "Sample evaluation, no serial award. Not in exposure."
+  },
+  {
+    "id": "L34",
+    "type": "Hypothesis",
+    "supplierTier": null,
+    "supplierId": "ORG-ALDER",
+    "supplierName": "Alder Bauxite Ltd. (not in universe)",
+    "customerId": "ORG-329",
+    "customerName": "Quartz Alloy Ltd.",
+    "input": "Bauxite",
+    "products": "H10",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": null,
+    "zone": null,
+    "evidence": [
+      {
+        "id": "DOC-074",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-086",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Hypothesis",
+    "grade": "D",
+    "include": false,
+    "notes": "Directory lead only; Quartz upstream unverified."
+  },
+  {
+    "id": "L35",
+    "type": "Ownership",
+    "supplierTier": null,
+    "supplierId": "ORG-268",
+    "supplierName": "CommonSpan Holdings Ltd.",
+    "customerId": "ORG-247",
+    "customerName": "Aster Power Assemblies Ltd.",
+    "input": "Controls (subsidiary)",
+    "products": "M10/M20",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-221",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-075",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Context",
+    "grade": "A",
+    "include": false,
+    "notes": "Same ultimate owner as Boreal."
+  },
+  {
+    "id": "L36",
+    "type": "Ownership",
+    "supplierTier": null,
+    "supplierId": "ORG-268",
+    "supplierName": "CommonSpan Holdings Ltd.",
+    "customerId": "ORG-725",
+    "customerName": "Boreal Power Systems Ltd.",
+    "input": "Controls (subsidiary)",
+    "products": "M10/M20",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-221",
+    "zone": "Z05",
+    "evidence": [
+      {
+        "id": "DOC-075",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Context",
+    "grade": "A",
+    "include": false,
+    "notes": "Same ultimate owner as Aster."
+  },
+  {
+    "id": "L37",
+    "type": "Ownership",
+    "supplierTier": null,
+    "supplierId": "ORG-445",
+    "supplierName": "Jade Circuits Holdings Ltd.",
+    "customerId": "ORG-453",
+    "customerName": "Jade Printed Circuits Ltd.",
+    "input": "Accounting parent",
+    "products": "C10/B10",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-214",
+    "zone": "Z07",
+    "evidence": [
+      {
+        "id": "DOC-076",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Context",
+    "grade": "A",
+    "include": false,
+    "notes": "HQ SITE-901 (Z07) does not manufacture."
+  },
+  {
+    "id": "L38",
+    "type": "Logistics",
+    "supplierTier": null,
+    "supplierId": "ORG-328",
+    "supplierName": "Harbor Freight Services Ltd.",
+    "customerId": "ORG-247",
+    "customerName": "Aster Power Assemblies Ltd.",
+    "input": "Consolidator for power dies",
+    "products": "M10/M20",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-242",
+    "zone": "Z07",
+    "evidence": [
+      {
+        "id": "SHP-00125",
+        "corroborating": false
+      },
+      {
+        "id": "DOC-083",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Context",
+    "grade": "A",
+    "include": false,
+    "notes": "Logistics dependency on the die path into Aster."
+  },
+  {
+    "id": "L39",
+    "type": "Rejected",
+    "supplierTier": null,
+    "supplierId": "ORG-922",
+    "supplierName": "Delta Capacitor Works Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "Housings H10 (2022 pilot)",
+    "products": "H10",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-039",
+    "zone": "Z03",
+    "evidence": [
+      {
+        "id": "DOC-080",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Rejected",
+    "grade": null,
+    "include": false,
+    "notes": "Expired 31-Dec-2023."
+  },
+  {
+    "id": "L40",
+    "type": "Rejected",
+    "supplierTier": null,
+    "supplierId": "ORG-857",
+    "supplierName": "Delta Consumer Plastics Ltd.",
+    "customerId": "NOVADRIVE",
+    "customerName": "NovaDrive Technologies",
+    "input": "Retail packaging trial",
+    "products": "—",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-249",
+    "zone": "Z02",
+    "evidence": [
+      {
+        "id": "DOC-084",
+        "corroborating": false
+      },
+      {
+        "id": "SHP-00438",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 2,
+    "status": "Rejected",
+    "grade": null,
+    "include": false,
+    "notes": "Wrong entity / not production."
+  },
+  {
+    "id": "L41",
+    "type": "Rejected",
+    "supplierTier": null,
+    "supplierId": "ORG-309",
+    "supplierName": "Ion Peak Trading Ltd.",
+    "customerId": null,
+    "customerName": null,
+    "input": "No relationship",
+    "products": "—",
+    "productFlags": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "allocation": null,
+    "siteId": "SITE-207",
+    "zone": "Z07",
+    "evidence": [
+      {
+        "id": "DOC-077",
+        "corroborating": false
+      }
+    ],
+    "sourceFamilyCount": 1,
+    "status": "Rejected",
+    "grade": null,
+    "include": false,
+    "notes": "Ion Peak Trading ≠ IonPeak Semiconductor."
+  }
+]

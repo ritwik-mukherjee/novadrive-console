@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "M10",
+      "usedIn": "P1, P3",
+      "binding": "IonPeak dies (DOC-078) + CommonSpan ownership (DOC-075)",
+      "readout": "Looks 60/40 dual-sourced; is one owner and one die fab."
+    },
+    {
+      "component": "M20",
+      "usedIn": "P2",
+      "binding": "IonPeak dies (DOC-078) + CommonSpan ownership (DOC-075)",
+      "readout": "Looks 70/30 dual-sourced; same as M10."
+    },
+    {
+      "component": "C10",
+      "usedIn": "P1, P2, P3",
+      "binding": "Cobalt (100%) and Jade substrates (DOC-079)",
+      "readout": "Single source at two consecutive tiers; in every product."
+    },
+    {
+      "component": "C20",
+      "usedIn": "P1, P2",
+      "binding": "Delta (100%); Meridian film presumed sole – VERIFY",
+      "readout": "Single source; Tier-2 now financially distressed (EV-003)."
+    },
+    {
+      "component": "H10",
+      "usedIn": "P1",
+      "binding": "ForgeLine (100%)",
+      "readout": "Single source but short TTR (4 wks)."
+    },
+    {
+      "component": "H20",
+      "usedIn": "P2, P3",
+      "binding": "Estuary (100%)",
+      "readout": "Single source, short TTR (6 wks), high-hazard zone Z06."
+    },
+    {
+      "component": "B10",
+      "usedIn": "P3",
+      "binding": "Jade substrates shared by Grove and HarborSense (DOC-079)",
+      "readout": "80/20 split collapses to one substrate plant."
+    }
+  ],
+  "zones": [
+    {
+      "zone": "Z01",
+      "nodesLabel": "IonPeak, Jade, Orion, Umber, Verdant",
+      "readout": "East Delta: dies + substrates + ceramics + SiC. 100% of revenue on CONFIRMED sole-source evidence. Flood watch active (EV-001)."
+    },
+    {
+      "zone": "Z02",
+      "nodesLabel": "Aster, ForgeLine, Quartz",
+      "readout": "Aster 60-70% of M10/M20 + all of H10."
+    },
+    {
+      "zone": "Z03",
+      "nodesLabel": "Delta, Meridian, Zenith",
+      "readout": "Entire C20 chain in one zone; Meridian distressed."
+    },
+    {
+      "zone": "Z04",
+      "nodesLabel": "Cobalt, Grove, Lumen, Rill, Xenon",
+      "readout": "Second 100% zone: Cobalt (sole C10) sits here; hazard 58 / logistics 62."
+    },
+    {
+      "zone": "Z05",
+      "nodesLabel": "Boreal, HarborSense, CommonSpan, Kestrel",
+      "readout": "Kestrel MCUs (presumed sole) drive the upper bound; confirmed exposure lower."
+    },
+    {
+      "zone": "Z06",
+      "nodesLabel": "Estuary, Nacre, Pine, Warden",
+      "readout": "H20 sole source + C20 foil + Jade copper foil; hazard 67."
+    },
+    {
+      "zone": "Z07",
+      "nodesLabel": "(none scored – Harbor Freight, Jade HQ, Ion Peak Trading)",
+      "readout": "Logistics/admin only. Note name trap: Harbor Freight site is called \"Harbor Works\", same as a NovaDrive plant."
+    },
+    {
+      "zone": "Z08",
+      "nodesLabel": "Yarrow (+ Solace, hypothesis)",
+      "readout": "Tier-3 only."
+    }
+  ]
+}

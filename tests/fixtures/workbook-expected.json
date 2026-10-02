@@ -1,0 +1,1915 @@
+{
+  "scorecard": [
+    {
+      "id": "ORG-247",
+      "leverageScore": 24,
+      "liquidityScore": 11.1,
+      "otdScore": 70.5,
+      "otdTrendScore": 0,
+      "leverageUsed": 24,
+      "liquidityUsed": 11.1,
+      "assuranceUsed": 24,
+      "financial": 17.55,
+      "operational": 35.25,
+      "geographic": 27,
+      "V": 26.19,
+      "exposure": {
+        "P1": 0.6,
+        "P2": 0.7,
+        "P3": 0.6
+      },
+      "revenueExposed": 988,
+      "share": 0.633333333333333,
+      "weekly": 19,
+      "rar": 304,
+      "recoveryScore": 44.4444444444444,
+      "centralityScore": 33.3333333333333,
+      "I": 51.6666666666667,
+      "priority": 13.5315,
+      "rank": 19,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-725",
+      "leverageScore": 43.3333333333333,
+      "liquidityScore": 28.8,
+      "otdScore": 59.5,
+      "otdTrendScore": 0,
+      "leverageUsed": 43.3333333333333,
+      "liquidityUsed": 28.8,
+      "assuranceUsed": 33,
+      "financial": 36.0666666666667,
+      "operational": 29.75,
+      "geographic": 24.3333333333333,
+      "V": 30.7783333333333,
+      "exposure": {
+        "P1": 0.4,
+        "P2": 0.3,
+        "P3": 0.4
+      },
+      "revenueExposed": 572,
+      "share": 0.366666666666667,
+      "weekly": 11,
+      "rar": 176,
+      "recoveryScore": 44.4444444444444,
+      "centralityScore": 33.3333333333333,
+      "I": 38.3333333333333,
+      "priority": 11.7983611111111,
+      "rank": 21,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-119",
+      "leverageScore": 70,
+      "liquidityScore": 4.8,
+      "otdScore": 58.5,
+      "otdTrendScore": 37,
+      "leverageUsed": 70,
+      "liquidityUsed": 4.8,
+      "assuranceUsed": 42,
+      "financial": 37.4,
+      "operational": 47.75,
+      "geographic": 57.3333333333333,
+      "V": 46.1783333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 360,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 33.3333333333333,
+      "I": 66.6666666666667,
+      "priority": 30.7855555555556,
+      "rank": 9,
+      "band": "High",
+      "quadrant": "Act now",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "ACT – mitigate now",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-922",
+      "leverageScore": 20.04,
+      "liquidityScore": 20.4,
+      "otdScore": 40.5,
+      "otdTrendScore": 0,
+      "leverageUsed": 20.04,
+      "liquidityUsed": 20.4,
+      "assuranceUsed": 51,
+      "financial": 20.22,
+      "operational": 20.25,
+      "geographic": 23.3333333333333,
+      "V": 25.6243333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 0
+      },
+      "revenueExposed": 1144,
+      "share": 0.733333333333333,
+      "weekly": 22,
+      "rar": 176,
+      "recoveryScore": 22.2222222222222,
+      "centralityScore": 33.3333333333333,
+      "I": 50,
+      "priority": 12.8121666666667,
+      "rank": 20,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-786",
+      "leverageScore": 34.5333333333333,
+      "liquidityScore": 0,
+      "otdScore": 26.5,
+      "otdTrendScore": 2,
+      "leverageUsed": 34.5333333333333,
+      "liquidityUsed": 0,
+      "assuranceUsed": 60,
+      "financial": 17.2666666666667,
+      "operational": 14.25,
+      "geographic": 60,
+      "V": 33.455,
+      "exposure": {
+        "P1": 0,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 936,
+      "share": 0.6,
+      "weekly": 18,
+      "rar": 108,
+      "recoveryScore": 16.6666666666667,
+      "centralityScore": 33.3333333333333,
+      "I": 41.6666666666667,
+      "priority": 13.9395833333333,
+      "rank": 18,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-287",
+      "leverageScore": 61.2,
+      "liquidityScore": 16.8,
+      "otdScore": 26,
+      "otdTrendScore": 22.25,
+      "leverageUsed": 61.2,
+      "liquidityUsed": 16.8,
+      "assuranceUsed": 69,
+      "financial": 39,
+      "operational": 24.125,
+      "geographic": 27,
+      "V": 36.0375,
+      "exposure": {
+        "P1": 1,
+        "P2": 0,
+        "P3": 0
+      },
+      "revenueExposed": 624,
+      "share": 0.4,
+      "weekly": 12,
+      "rar": 48,
+      "recoveryScore": 11.1111111111111,
+      "centralityScore": 33.3333333333333,
+      "I": 30,
+      "priority": 10.81125,
+      "rank": 23,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-103",
+      "leverageScore": 15.96,
+      "liquidityScore": 29.7,
+      "otdScore": 81,
+      "otdTrendScore": 26.75,
+      "leverageUsed": 15.96,
+      "liquidityUsed": 29.7,
+      "assuranceUsed": 18,
+      "financial": 22.83,
+      "operational": 53.875,
+      "geographic": 57.3333333333333,
+      "V": 40.0448333333333,
+      "exposure": {
+        "P1": 0,
+        "P2": 0,
+        "P3": 0.8
+      },
+      "revenueExposed": 332.8,
+      "share": 0.213333333333333,
+      "weekly": 6.4,
+      "rar": 76.8,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 33.3333333333333,
+      "I": 27.3333333333333,
+      "priority": 10.9455877777778,
+      "rank": 22,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-176",
+      "leverageScore": 27.96,
+      "liquidityScore": 7.79999999999999,
+      "otdScore": 65.5,
+      "otdTrendScore": 26.75,
+      "leverageUsed": 27.96,
+      "liquidityUsed": 7.79999999999999,
+      "assuranceUsed": 27,
+      "financial": 17.88,
+      "operational": 46.125,
+      "geographic": 24.3333333333333,
+      "V": 29.3348333333333,
+      "exposure": {
+        "P1": 0,
+        "P2": 0,
+        "P3": 0.2
+      },
+      "revenueExposed": 83.2,
+      "share": 0.0533333333333333,
+      "weekly": 1.6,
+      "rar": 19.2,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 33.3333333333333,
+      "I": 19.3333333333333,
+      "priority": 5.67140111111111,
+      "rank": 25,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-268",
+      "leverageScore": 12,
+      "liquidityScore": 13.8,
+      "otdScore": 37,
+      "otdTrendScore": 28.25,
+      "leverageUsed": 12,
+      "liquidityUsed": 13.8,
+      "assuranceUsed": 45,
+      "financial": 12.9,
+      "operational": 32.625,
+      "geographic": 24.3333333333333,
+      "V": 26.4908333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 480,
+      "recoveryScore": 44.4444444444444,
+      "centralityScore": 66.6666666666667,
+      "I": 76.6666666666667,
+      "priority": 20.3096388888889,
+      "rank": 15,
+      "band": "Elevated",
+      "quadrant": "Protect (structural)",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "PLAN – qualify alternate in 90 days",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-439",
+      "leverageScore": 28.8,
+      "liquidityScore": 21,
+      "otdScore": 49,
+      "otdTrendScore": 74,
+      "leverageUsed": 28.8,
+      "liquidityUsed": 21,
+      "assuranceUsed": 36,
+      "financial": 24.9,
+      "operational": 61.5,
+      "geographic": 76.3333333333333,
+      "V": 50.4033333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 1080,
+      "recoveryScore": 100,
+      "centralityScore": 66.6666666666667,
+      "I": 93.3333333333333,
+      "priority": 47.0431111111111,
+      "rank": 2,
+      "band": "Critical",
+      "quadrant": "Act now",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "ACT – mitigate now",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-453",
+      "leverageScore": 46,
+      "liquidityScore": 28.5,
+      "otdScore": 42,
+      "otdTrendScore": 62,
+      "leverageUsed": 46,
+      "liquidityUsed": 28.5,
+      "assuranceUsed": 45,
+      "financial": 37.25,
+      "operational": 52,
+      "geographic": 76.3333333333333,
+      "V": 52.6083333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 360,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 100,
+      "I": 80,
+      "priority": 42.0866666666667,
+      "rank": 4,
+      "band": "High",
+      "quadrant": "Act now",
+      "linkPts": 3,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 1,
+      "confidencePts": 6,
+      "confidence": "High",
+      "action": "ACT – mitigate now",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-728",
+      "leverageScore": 24,
+      "liquidityScore": 19.2,
+      "otdScore": 38.5,
+      "otdTrendScore": 4,
+      "leverageUsed": 24,
+      "liquidityUsed": 19.2,
+      "assuranceUsed": 54,
+      "financial": 21.6,
+      "operational": 21.25,
+      "geographic": 24.3333333333333,
+      "V": 27.0383333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 780,
+      "recoveryScore": 72.2222222222222,
+      "centralityScore": 66.6666666666667,
+      "I": 85,
+      "priority": 22.9825833333333,
+      "rank": 12,
+      "band": "Elevated",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "PLAN – qualify alternate in 90 days",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-942",
+      "leverageScore": 43.3333333333333,
+      "liquidityScore": 40.4,
+      "otdScore": 27.5,
+      "otdTrendScore": 24.5,
+      "leverageUsed": 43.3333333333333,
+      "liquidityUsed": 40.4,
+      "assuranceUsed": 63,
+      "financial": 41.8666666666667,
+      "operational": 26,
+      "geographic": 57.3333333333333,
+      "V": 44.1433333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 300,
+      "recoveryScore": 27.7777777777778,
+      "centralityScore": 66.6666666666667,
+      "I": 71.6666666666667,
+      "priority": 31.6360555555556,
+      "rank": 7,
+      "band": "High",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "CONFIRM sole-source status, then qualify alternate",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-708",
+      "leverageScore": 34.5333333333333,
+      "liquidityScore": 6.3,
+      "otdScore": 64,
+      "otdTrendScore": 13,
+      "leverageUsed": 34.5333333333333,
+      "liquidityUsed": 6.3,
+      "assuranceUsed": 30,
+      "financial": 20.4166666666667,
+      "operational": 38.5,
+      "geographic": 76.3333333333333,
+      "V": 41.2583333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 600,
+      "recoveryScore": 55.5555555555556,
+      "centralityScore": 66.6666666666667,
+      "I": 80,
+      "priority": 33.0066666666667,
+      "rank": 6,
+      "band": "High",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "CONFIRM sole-source status, then qualify alternate",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-469",
+      "leverageScore": 27.96,
+      "liquidityScore": 13.8,
+      "otdScore": 28.5,
+      "otdTrendScore": 17,
+      "leverageUsed": 27.96,
+      "liquidityUsed": 13.8,
+      "assuranceUsed": 57,
+      "financial": 20.88,
+      "operational": 22.75,
+      "geographic": 57.3333333333333,
+      "V": 35.9723333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 180,
+      "recoveryScore": 16.6666666666667,
+      "centralityScore": 33.3333333333333,
+      "I": 61.6666666666667,
+      "priority": 22.1829388888889,
+      "rank": 13,
+      "band": "Elevated",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "PLAN – qualify alternate in 90 days",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-210",
+      "leverageScore": 100,
+      "liquidityScore": 92.8,
+      "otdScore": 93,
+      "otdTrendScore": 100,
+      "leverageUsed": 100,
+      "liquidityUsed": 92.8,
+      "assuranceUsed": 72,
+      "financial": 96.4,
+      "operational": 96.5,
+      "geographic": 23.3333333333333,
+      "V": 84.5033333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 0
+      },
+      "revenueExposed": 1144,
+      "share": 0.733333333333333,
+      "weekly": 22,
+      "rar": 264,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 33.3333333333333,
+      "I": 53.3333333333333,
+      "priority": 45.0684444444444,
+      "rank": 3,
+      "band": "Critical",
+      "quadrant": "Remediate supplier",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "ACT – mitigate now",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-849",
+      "leverageScore": 20.04,
+      "liquidityScore": 28.8,
+      "otdScore": 78.5,
+      "otdTrendScore": 45,
+      "leverageUsed": 20.04,
+      "liquidityUsed": 28.8,
+      "assuranceUsed": 21,
+      "financial": 24.42,
+      "operational": 61.75,
+      "geographic": 60,
+      "V": 44.001,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 0
+      },
+      "revenueExposed": 1144,
+      "share": 0.733333333333333,
+      "weekly": 22,
+      "rar": 176,
+      "recoveryScore": 22.2222222222222,
+      "centralityScore": 33.3333333333333,
+      "I": 50,
+      "priority": 22.0005,
+      "rank": 14,
+      "band": "Elevated",
+      "quadrant": "Routine",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "PLAN – qualify alternate in 90 days",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-274",
+      "leverageScore": 61.2,
+      "liquidityScore": 21.3,
+      "otdScore": 47,
+      "otdTrendScore": 12,
+      "leverageUsed": 61.2,
+      "liquidityUsed": 21.3,
+      "assuranceUsed": 39,
+      "financial": 41.25,
+      "operational": 29.5,
+      "geographic": 60,
+      "V": 42.075,
+      "exposure": {
+        "P1": 0,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 936,
+      "share": 0.6,
+      "weekly": 18,
+      "rar": 72,
+      "recoveryScore": 11.1111111111111,
+      "centralityScore": 33.3333333333333,
+      "I": 40,
+      "priority": 16.83,
+      "rank": 17,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-329",
+      "leverageScore": 15.96,
+      "liquidityScore": 2.09999999999999,
+      "otdScore": 52,
+      "otdTrendScore": 35.6666666666667,
+      "leverageUsed": 15.96,
+      "liquidityUsed": 2.09999999999999,
+      "assuranceUsed": 48,
+      "financial": 9.03,
+      "operational": 43.8333333333334,
+      "geographic": 27,
+      "V": 29.809,
+      "exposure": {
+        "P1": 1,
+        "P2": 0,
+        "P3": 0
+      },
+      "revenueExposed": 624,
+      "share": 0.4,
+      "weekly": 12,
+      "rar": 48,
+      "recoveryScore": 11.1111111111111,
+      "centralityScore": 33.3333333333333,
+      "I": 30,
+      "priority": 8.9427,
+      "rank": 24,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 2,
+      "indicatorsAvailable": 8,
+      "dataPts": 2,
+      "dependencyPts": 0,
+      "confidencePts": 4,
+      "confidence": "Medium",
+      "action": "MONITOR – quarterly review",
+      "missing": "—"
+    },
+    {
+      "id": "ORG-455",
+      "leverageScore": null,
+      "liquidityScore": null,
+      "otdScore": 72.5,
+      "otdTrendScore": 36.3333333333333,
+      "leverageUsed": 44.6666666666667,
+      "liquidityUsed": 28.65,
+      "assuranceUsed": 55.5,
+      "financial": 36.6583333333333,
+      "operational": 54.4166666666667,
+      "geographic": 76.3333333333333,
+      "V": 54.7308333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 1080,
+      "recoveryScore": 100,
+      "centralityScore": 66.6666666666667,
+      "I": 93.3333333333333,
+      "priority": 51.0821111111111,
+      "rank": 1,
+      "band": "Critical",
+      "quadrant": "Act now",
+      "linkPts": 2,
+      "indicatorsAvailable": 5,
+      "dataPts": 0,
+      "dependencyPts": 0,
+      "confidencePts": 2,
+      "confidence": "Low",
+      "action": "VERIFY first – urgent sub-tier fact-find",
+      "missing": "Current ratio; Net debt/EBITDA; Assurance gap"
+    },
+    {
+      "id": "ORG-736",
+      "leverageScore": null,
+      "liquidityScore": null,
+      "otdScore": 65.5,
+      "otdTrendScore": 26.75,
+      "leverageUsed": 44.6666666666667,
+      "liquidityUsed": 28.65,
+      "assuranceUsed": 55.5,
+      "financial": 36.6583333333333,
+      "operational": 46.125,
+      "geographic": 76.3333333333333,
+      "V": 52.2433333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 240,
+      "recoveryScore": 22.2222222222222,
+      "centralityScore": 66.6666666666667,
+      "I": 70,
+      "priority": 36.5703333333333,
+      "rank": 5,
+      "band": "High",
+      "quadrant": "Act now",
+      "linkPts": 1,
+      "indicatorsAvailable": 5,
+      "dataPts": 0,
+      "dependencyPts": 0,
+      "confidencePts": 1,
+      "confidence": "Low",
+      "action": "VERIFY first – urgent sub-tier fact-find",
+      "missing": "Current ratio; Net debt/EBITDA; Assurance gap"
+    },
+    {
+      "id": "ORG-520",
+      "leverageScore": null,
+      "liquidityScore": null,
+      "otdScore": 24.5,
+      "otdTrendScore": 29,
+      "leverageUsed": 44.6666666666667,
+      "liquidityUsed": 28.65,
+      "assuranceUsed": 55.5,
+      "financial": 36.6583333333333,
+      "operational": 26.75,
+      "geographic": 42.3333333333333,
+      "V": 37.9308333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 360,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 66.6666666666667,
+      "I": 73.3333333333333,
+      "priority": 27.8159444444444,
+      "rank": 11,
+      "band": "Elevated",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 5,
+      "dataPts": 0,
+      "dependencyPts": 0,
+      "confidencePts": 2,
+      "confidence": "Low",
+      "action": "VERIFY – add to N-tier survey",
+      "missing": "Current ratio; Net debt/EBITDA; Assurance gap"
+    },
+    {
+      "id": "ORG-873",
+      "leverageScore": null,
+      "liquidityScore": null,
+      "otdScore": 38,
+      "otdTrendScore": 2,
+      "leverageUsed": 44.6666666666667,
+      "liquidityUsed": 28.65,
+      "assuranceUsed": 55.5,
+      "financial": 36.6583333333333,
+      "operational": 20,
+      "geographic": 60,
+      "V": 40.3225,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 240,
+      "recoveryScore": 22.2222222222222,
+      "centralityScore": 100,
+      "I": 76.6666666666667,
+      "priority": 30.9139166666667,
+      "rank": 8,
+      "band": "High",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 5,
+      "dataPts": 0,
+      "dependencyPts": 0,
+      "confidencePts": 2,
+      "confidence": "Low",
+      "action": "VERIFY first – urgent sub-tier fact-find",
+      "missing": "Current ratio; Net debt/EBITDA; Assurance gap"
+    },
+    {
+      "id": "ORG-179",
+      "leverageScore": null,
+      "liquidityScore": null,
+      "otdScore": 38.5,
+      "otdTrendScore": 2,
+      "leverageUsed": 44.6666666666667,
+      "liquidityUsed": 28.65,
+      "assuranceUsed": 55.5,
+      "financial": 36.6583333333333,
+      "operational": 20.25,
+      "geographic": 57.3333333333333,
+      "V": 39.7308333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 1
+      },
+      "revenueExposed": 1560,
+      "share": 1,
+      "weekly": 30,
+      "rar": 240,
+      "recoveryScore": 22.2222222222222,
+      "centralityScore": 100,
+      "I": 76.6666666666667,
+      "priority": 30.4603055555556,
+      "rank": 10,
+      "band": "High",
+      "quadrant": "Protect (structural)",
+      "linkPts": 2,
+      "indicatorsAvailable": 5,
+      "dataPts": 0,
+      "dependencyPts": 0,
+      "confidencePts": 2,
+      "confidence": "Low",
+      "action": "VERIFY first – urgent sub-tier fact-find",
+      "missing": "Current ratio; Net debt/EBITDA; Assurance gap"
+    },
+    {
+      "id": "ORG-659",
+      "leverageScore": null,
+      "liquidityScore": null,
+      "otdScore": 20.5,
+      "otdTrendScore": 26.75,
+      "leverageUsed": 44.6666666666667,
+      "liquidityUsed": 28.65,
+      "assuranceUsed": 55.5,
+      "financial": 36.6583333333333,
+      "operational": 23.625,
+      "geographic": 23.3333333333333,
+      "V": 32.2433333333333,
+      "exposure": {
+        "P1": 1,
+        "P2": 1,
+        "P3": 0
+      },
+      "revenueExposed": 1144,
+      "share": 0.733333333333333,
+      "weekly": 22,
+      "rar": 264,
+      "recoveryScore": 33.3333333333333,
+      "centralityScore": 33.3333333333333,
+      "I": 53.3333333333333,
+      "priority": 17.1964444444444,
+      "rank": 16,
+      "band": "Watch",
+      "quadrant": "Routine",
+      "linkPts": 2,
+      "indicatorsAvailable": 5,
+      "dataPts": 0,
+      "dependencyPts": 0,
+      "confidencePts": 2,
+      "confidence": "Low",
+      "action": "MONITOR – quarterly review",
+      "missing": "Current ratio; Net debt/EBITDA; Assurance gap"
+    }
+  ],
+  "concentration": {
+    "components": [
+      {
+        "component": "M10",
+        "hhi": 0.52,
+        "nEffTier1": 1.92307692307692,
+        "nEffOwnership": 1,
+        "nEffSubTier": 1,
+        "illusion": 0.923076923076923
+      },
+      {
+        "component": "M20",
+        "hhi": 0.58,
+        "nEffTier1": 1.72413793103448,
+        "nEffOwnership": 1,
+        "nEffSubTier": 1,
+        "illusion": 0.724137931034483
+      },
+      {
+        "component": "C10",
+        "hhi": 1,
+        "nEffTier1": 1,
+        "nEffOwnership": 1,
+        "nEffSubTier": 1,
+        "illusion": 0
+      },
+      {
+        "component": "C20",
+        "hhi": 1,
+        "nEffTier1": 1,
+        "nEffOwnership": 1,
+        "nEffSubTier": 1,
+        "illusion": 0
+      },
+      {
+        "component": "H10",
+        "hhi": 1,
+        "nEffTier1": 1,
+        "nEffOwnership": 1,
+        "nEffSubTier": 1,
+        "illusion": 0
+      },
+      {
+        "component": "H20",
+        "hhi": 1,
+        "nEffTier1": 1,
+        "nEffOwnership": 1,
+        "nEffSubTier": 1,
+        "illusion": 0
+      },
+      {
+        "component": "B10",
+        "hhi": 0.68,
+        "nEffTier1": 1.47058823529412,
+        "nEffOwnership": 1.47058823529412,
+        "nEffSubTier": 1,
+        "illusion": 0.470588235294117
+      }
+    ],
+    "zones": [
+      {
+        "zone": "Z01",
+        "scoredNodes": 5,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 1,
+          "P3": 1
+        },
+        "revenueAtStake": 1560,
+        "share": 1,
+        "confirmedRevenue": 1560,
+        "hazard": 82,
+        "logistics": 76
+      },
+      {
+        "zone": "Z02",
+        "scoredNodes": 3,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 0.7,
+          "P3": 0.6
+        },
+        "revenueAtStake": 1237.6,
+        "share": 0.793333333333333,
+        "confirmedRevenue": 1237.6,
+        "hazard": 27,
+        "logistics": 30
+      },
+      {
+        "zone": "Z03",
+        "scoredNodes": 3,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 1,
+          "P3": 0
+        },
+        "revenueAtStake": 1144,
+        "share": 0.733333333333333,
+        "confirmedRevenue": 1144,
+        "hazard": 19,
+        "logistics": 26
+      },
+      {
+        "zone": "Z04",
+        "scoredNodes": 5,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 1,
+          "P3": 1
+        },
+        "revenueAtStake": 1560,
+        "share": 1,
+        "confirmedRevenue": 1560,
+        "hazard": 58,
+        "logistics": 62
+      },
+      {
+        "zone": "Z05",
+        "scoredNodes": 3,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 1,
+          "P3": 1
+        },
+        "revenueAtStake": 1560,
+        "share": 1,
+        "confirmedRevenue": 572,
+        "hazard": 31,
+        "logistics": 23
+      },
+      {
+        "zone": "Z06",
+        "scoredNodes": 4,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 1,
+          "P3": 1
+        },
+        "revenueAtStake": 1560,
+        "share": 1,
+        "confirmedRevenue": 936,
+        "hazard": 67,
+        "logistics": 59
+      },
+      {
+        "zone": "Z07",
+        "scoredNodes": 0,
+        "maxExposure": {
+          "P1": 0,
+          "P2": 0,
+          "P3": 0
+        },
+        "revenueAtStake": 0,
+        "share": 0,
+        "confirmedRevenue": 0,
+        "hazard": 34,
+        "logistics": 36
+      },
+      {
+        "zone": "Z08",
+        "scoredNodes": 1,
+        "maxExposure": {
+          "P1": 1,
+          "P2": 1,
+          "P3": 1
+        },
+        "revenueAtStake": 1560,
+        "share": 1,
+        "confirmedRevenue": 0,
+        "hazard": 39,
+        "logistics": 47
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "id": "EV-001",
+      "freshness": "Current",
+      "exposure": 1,
+      "vulnFactor": 0.752016666666667,
+      "score": 42.1129333333333,
+      "level": "HIGH"
+    },
+    {
+      "id": "EV-002",
+      "freshness": "Current",
+      "exposure": 0,
+      "vulnFactor": 0.75,
+      "score": 0,
+      "level": "MERGED into EV-001"
+    },
+    {
+      "id": "EV-003",
+      "freshness": "Current",
+      "exposure": 0.733333333333333,
+      "vulnFactor": 0.922516666666667,
+      "score": 37.8846844444444,
+      "level": "HIGH"
+    },
+    {
+      "id": "EV-004",
+      "freshness": "Current",
+      "exposure": 0,
+      "vulnFactor": 0.75,
+      "score": 0,
+      "level": "SUPPRESS – wrong entity"
+    },
+    {
+      "id": "EV-005",
+      "freshness": "STALE – archived event",
+      "exposure": 0,
+      "vulnFactor": 0.75,
+      "score": 0,
+      "level": "SUPPRESS – stale"
+    },
+    {
+      "id": "EV-007",
+      "freshness": "Current",
+      "exposure": 1,
+      "vulnFactor": 0.763041666666667,
+      "score": 1.22086666666667,
+      "level": "LOG only"
+    },
+    {
+      "id": "EV-009",
+      "freshness": "Current",
+      "exposure": 0,
+      "vulnFactor": 0.75,
+      "score": 0,
+      "level": "SUPPRESS – wrong entity"
+    },
+    {
+      "id": "EV-010",
+      "freshness": "Current",
+      "exposure": 1,
+      "vulnFactor": 0.75,
+      "score": 7.2,
+      "level": "LOW – verify"
+    }
+  ],
+  "alternates": [
+    {
+      "n": 1,
+      "fitment": 90,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 2,
+      "fitment": 81,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 3,
+      "fitment": 78,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 4,
+      "fitment": 72,
+      "recommendation": "RESERVE"
+    },
+    {
+      "n": 5,
+      "fitment": 78,
+      "recommendation": "SHORTLIST – with risk conditions"
+    },
+    {
+      "n": 6,
+      "fitment": 85,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 7,
+      "fitment": 63,
+      "recommendation": "RESERVE"
+    },
+    {
+      "n": 8,
+      "fitment": 60,
+      "recommendation": "RESERVE"
+    },
+    {
+      "n": 9,
+      "fitment": 94,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 10,
+      "fitment": 89,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 11,
+      "fitment": 78,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 12,
+      "fitment": 86,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 13,
+      "fitment": 74,
+      "recommendation": "RESERVE"
+    },
+    {
+      "n": 14,
+      "fitment": 56,
+      "recommendation": "EXCLUDE – failed risk screen"
+    },
+    {
+      "n": 15,
+      "fitment": 81,
+      "recommendation": "SHORTLIST – with risk conditions"
+    },
+    {
+      "n": 16,
+      "fitment": 77,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 17,
+      "fitment": 87,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 18,
+      "fitment": 87,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 19,
+      "fitment": 78,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 20,
+      "fitment": 81,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 21,
+      "fitment": 75,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 22,
+      "fitment": 83,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 23,
+      "fitment": 77,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 24,
+      "fitment": 92,
+      "recommendation": "SHORTLIST – with risk conditions"
+    },
+    {
+      "n": 25,
+      "fitment": 78,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 26,
+      "fitment": 83,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 27,
+      "fitment": 85,
+      "recommendation": "SHORTLIST – issue RFI"
+    },
+    {
+      "n": 28,
+      "fitment": 71,
+      "recommendation": "RESERVE"
+    }
+  ],
+  "sensitivity": [
+    {
+      "id": "ORG-247",
+      "priority": [
+        13.5315,
+        12.2061111111111,
+        12.20625,
+        13.837625,
+        16.587
+      ],
+      "rank": [
+        19,
+        20,
+        20,
+        19,
+        20
+      ],
+      "top5Count": 0,
+      "best": 19,
+      "worst": 20
+    },
+    {
+      "id": "ORG-725",
+      "priority": [
+        11.7983611111111,
+        11.7448611111111,
+        12.3241666666667,
+        10.9160555555556,
+        11.2853888888889
+      ],
+      "rank": [
+        21,
+        21,
+        18,
+        22,
+        23
+      ],
+      "top5Count": 0,
+      "best": 18,
+      "worst": 23
+    },
+    {
+      "id": "ORG-119",
+      "priority": [
+        30.7855555555556,
+        25.6226851851852,
+        29.2777777777778,
+        33.4177777777778,
+        46.1783333333333
+      ],
+      "rank": [
+        9,
+        11,
+        9,
+        10,
+        6
+      ],
+      "top5Count": 0,
+      "best": 6,
+      "worst": 11
+    },
+    {
+      "id": "ORG-922",
+      "priority": [
+        12.8121666666667,
+        12.3307283950617,
+        11.9633333333333,
+        13.1998333333333,
+        18.7911777777778
+      ],
+      "rank": [
+        20,
+        19,
+        21,
+        20,
+        19
+      ],
+      "top5Count": 0,
+      "best": 19,
+      "worst": 21
+    },
+    {
+      "id": "ORG-786",
+      "priority": [
+        13.9395833333333,
+        13.8890277777778,
+        12.2847222222222,
+        18.5166666666667,
+        20.073
+      ],
+      "rank": [
+        18,
+        18,
+        19,
+        17,
+        18
+      ],
+      "top5Count": 0,
+      "best": 17,
+      "worst": 19
+    },
+    {
+      "id": "ORG-287",
+      "priority": [
+        10.81125,
+        11.1976851851852,
+        10.9875,
+        10.3575,
+        14.415
+      ],
+      "rank": [
+        23,
+        22,
+        22,
+        23,
+        21
+      ],
+      "top5Count": 0,
+      "best": 21,
+      "worst": 23
+    },
+    {
+      "id": "ORG-103",
+      "priority": [
+        10.9455877777778,
+        11.1494777777778,
+        9.69148888888889,
+        12.4547522222222,
+        8.54289777777778
+      ],
+      "rank": [
+        22,
+        23,
+        23,
+        21,
+        24
+      ],
+      "top5Count": 0,
+      "best": 21,
+      "worst": 24
+    },
+    {
+      "id": "ORG-176",
+      "priority": [
+        5.67140111111111,
+        6.9203,
+        4.97478888888889,
+        5.43724222222222,
+        1.56452444444444
+      ],
+      "rank": [
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "top5Count": 0,
+      "best": 25,
+      "worst": 25
+    },
+    {
+      "id": "ORG-268",
+      "priority": [
+        20.3096388888889,
+        20.2065586419753,
+        17.1286111111111,
+        20.9887777777778,
+        26.4908333333333
+      ],
+      "rank": [
+        15,
+        13,
+        16,
+        15,
+        15
+      ],
+      "top5Count": 0,
+      "best": 13,
+      "worst": 16
+    },
+    {
+      "id": "ORG-439",
+      "priority": [
+        47.0431111111111,
+        44.162962962963,
+        40.7088888888889,
+        55.6282222222222,
+        50.4033333333333
+      ],
+      "rank": [
+        2,
+        2,
+        3,
+        2,
+        5
+      ],
+      "top5Count": 5,
+      "best": 2,
+      "worst": 5
+    },
+    {
+      "id": "ORG-453",
+      "priority": [
+        42.0866666666667,
+        40.9467592592593,
+        39.0333333333333,
+        48.7233333333333,
+        52.6083333333333
+      ],
+      "rank": [
+        4,
+        3,
+        4,
+        3,
+        3
+      ],
+      "top5Count": 5,
+      "best": 3,
+      "worst": 4
+    },
+    {
+      "id": "ORG-728",
+      "priority": [
+        22.9825833333333,
+        24.1244598765432,
+        21.5191666666667,
+        23.5931666666667,
+        27.0383333333333
+      ],
+      "rank": [
+        12,
+        12,
+        12,
+        14,
+        14
+      ],
+      "top5Count": 0,
+      "best": 12,
+      "worst": 14
+    },
+    {
+      "id": "ORG-942",
+      "priority": [
+        31.6360555555556,
+        30.4953703703704,
+        31.4616666666667,
+        35.5442777777778,
+        44.1433333333333
+      ],
+      "rank": [
+        7,
+        9,
+        6,
+        8,
+        7
+      ],
+      "top5Count": 0,
+      "best": 6,
+      "worst": 9
+    },
+    {
+      "id": "ORG-708",
+      "priority": [
+        33.0066666666667,
+        30.6018518518518,
+        28.94,
+        42.7433333333333,
+        41.2583333333333
+      ],
+      "rank": [
+        6,
+        8,
+        10,
+        5,
+        8
+      ],
+      "top5Count": 1,
+      "best": 5,
+      "worst": 10
+    },
+    {
+      "id": "ORG-469",
+      "priority": [
+        22.1829388888889,
+        19.7454166666667,
+        19.8299444444444,
+        27.6875111111111,
+        35.9723333333333
+      ],
+      "rank": [
+        13,
+        14,
+        13,
+        12,
+        12
+      ],
+      "top5Count": 0,
+      "best": 12,
+      "worst": 14
+    },
+    {
+      "id": "ORG-210",
+      "priority": [
+        45.0684444444444,
+        38.2938888888889,
+        47.6622222222222,
+        35.3208888888889,
+        61.9691111111111
+      ],
+      "rank": [
+        3,
+        4,
+        1,
+        9,
+        1
+      ],
+      "top5Count": 4,
+      "best": 1,
+      "worst": 9
+    },
+    {
+      "id": "ORG-849",
+      "priority": [
+        22.0005,
+        17.9552962962963,
+        19.33,
+        24.5815,
+        32.2674
+      ],
+      "rank": [
+        14,
+        15,
+        14,
+        13,
+        13
+      ],
+      "top5Count": 0,
+      "best": 13,
+      "worst": 15
+    },
+    {
+      "id": "ORG-274",
+      "priority": [
+        16.83,
+        14.774537037037,
+        16.97,
+        19.175,
+        25.245
+      ],
+      "rank": [
+        17,
+        17,
+        17,
+        16,
+        16
+      ],
+      "top5Count": 0,
+      "best": 16,
+      "worst": 17
+    },
+    {
+      "id": "ORG-329",
+      "priority": [
+        8.9427,
+        8.99779012345679,
+        7.0445,
+        9.24635,
+        11.9236
+      ],
+      "rank": [
+        24,
+        24,
+        24,
+        24,
+        22
+      ],
+      "top5Count": 0,
+      "best": 22,
+      "worst": 24
+    },
+    {
+      "id": "ORG-455",
+      "priority": [
+        51.0821111111111,
+        49.5351851851852,
+        46.6938888888889,
+        58.6821666666667,
+        54.7308333333333
+      ],
+      "rank": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "top5Count": 5,
+      "best": 1,
+      "worst": 2
+    },
+    {
+      "id": "ORG-736",
+      "priority": [
+        36.5703333333333,
+        33.7822530864197,
+        33.8595833333333,
+        42.8507916666667,
+        52.2433333333333
+      ],
+      "rank": [
+        5,
+        5,
+        5,
+        4,
+        4
+      ],
+      "top5Count": 5,
+      "best": 4,
+      "worst": 5
+    },
+    {
+      "id": "ORG-520",
+      "priority": [
+        27.8159444444444,
+        26.8736111111111,
+        27.6436111111111,
+        29.5829722222222,
+        37.9308333333333
+      ],
+      "rank": [
+        11,
+        10,
+        11,
+        11,
+        11
+      ],
+      "top5Count": 0,
+      "best": 10,
+      "worst": 11
+    },
+    {
+      "id": "ORG-873",
+      "priority": [
+        30.9139166666667,
+        31.8811728395062,
+        30.5740277777778,
+        36.664875,
+        40.3225
+      ],
+      "rank": [
+        8,
+        6,
+        7,
+        6,
+        9
+      ],
+      "top5Count": 0,
+      "best": 6,
+      "worst": 9
+    },
+    {
+      "id": "ORG-179",
+      "priority": [
+        30.4603055555556,
+        31.4336419753086,
+        30.2034722222222,
+        35.6809861111111,
+        39.7308333333333
+      ],
+      "rank": [
+        10,
+        7,
+        8,
+        7,
+        10
+      ],
+      "top5Count": 0,
+      "best": 7,
+      "worst": 10
+    },
+    {
+      "id": "ORG-659",
+      "priority": [
+        17.1964444444444,
+        16.2302777777778,
+        17.7444444444444,
+        16.1148888888889,
+        23.6451111111111
+      ],
+      "rank": [
+        16,
+        16,
+        15,
+        18,
+        17
+      ],
+      "top5Count": 0,
+      "best": 15,
+      "worst": 18
+    }
+  ],
+  "checks": [
+    {
+      "n": 1,
+      "check": "Vulnerability pillar weights sum to 100%",
+      "status": "PASS"
+    },
+    {
+      "n": 2,
+      "check": "Impact weights sum to 100%",
+      "status": "PASS"
+    },
+    {
+      "n": 3,
+      "check": "Fitment weights sum to 100%",
+      "status": "PASS"
+    },
+    {
+      "n": 4,
+      "check": "Alert thresholds ordered High > Medium > Low",
+      "status": "PASS"
+    },
+    {
+      "n": 5,
+      "check": "Stale threshold (days) is a positive number and larger than any alert threshold",
+      "status": "PASS"
+    },
+    {
+      "n": 6,
+      "check": "Market research date is on/after case cut-off",
+      "status": "PASS"
+    },
+    {
+      "n": 7,
+      "check": "Scorecard ranks are unique (1-25)",
+      "status": "PASS"
+    },
+    {
+      "n": 8,
+      "check": "All product exposures between 0% and 100%",
+      "status": "PASS"
+    },
+    {
+      "n": 9,
+      "check": "Every Tier-1 link is evidence grade A",
+      "status": "PASS"
+    },
+    {
+      "n": 10,
+      "check": "Evidence ledger holds all 59 case records",
+      "status": "PASS"
+    },
+    {
+      "n": 11,
+      "check": "No formula errors – Scorecard",
+      "status": "PASS"
+    },
+    {
+      "n": 12,
+      "check": "No formula errors – Network / Concentration",
+      "status": "PASS"
+    },
+    {
+      "n": 13,
+      "check": "No formula errors – Alerts / Alternates",
+      "status": "PASS"
+    },
+    {
+      "n": 14,
+      "check": "Sensitivity ranks unique in every scenario",
+      "status": "PASS"
+    },
+    {
+      "n": 15,
+      "check": "Duplicate event EV-002 is merged, not counted",
+      "status": "PASS"
+    }
+  ]
+}

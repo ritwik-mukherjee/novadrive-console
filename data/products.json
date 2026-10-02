@@ -1,0 +1,23 @@
+[
+  {
+    "id": "P1",
+    "name": "DriveCore industrial inverter",
+    "revenue": 624,
+    "weeklyUnits": 2000,
+    "footprint": "Harbor Works (60%); Plateau Works (40%)"
+  },
+  {
+    "id": "P2",
+    "name": "ChargeBridge charging power unit",
+    "revenue": 520,
+    "weeklyUnits": 1000,
+    "footprint": "Harbor Works (30%); Coastal Works (70%)"
+  },
+  {
+    "id": "P3",
+    "name": "StoreLink storage control cabinet",
+    "revenue": 416,
+    "weeklyUnits": 800,
+    "footprint": "Plateau Works (100%)"
+  }
+]

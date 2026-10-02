@@ -1,0 +1,82 @@
+[
+  {
+    "id": "S1",
+    "name": "Base case",
+    "rationale": "Team weights",
+    "vuln": {
+      "financial": null,
+      "operational": null,
+      "assurance": null,
+      "geographic": null
+    },
+    "impact": {
+      "revenue": null,
+      "recovery": null,
+      "centrality": null
+    }
+  },
+  {
+    "id": "S2",
+    "name": "Equal weights",
+    "rationale": "No judgement on relative importance",
+    "vuln": {
+      "financial": 0.25,
+      "operational": 0.25,
+      "assurance": 0.25,
+      "geographic": 0.25
+    },
+    "impact": {
+      "revenue": 0.333333333333333,
+      "recovery": 0.333333333333333,
+      "centrality": 0.333333333333333
+    }
+  },
+  {
+    "id": "S3",
+    "name": "Credit-risk lens",
+    "rationale": "Treasury/credit view",
+    "vuln": {
+      "financial": 0.5,
+      "operational": 0.2,
+      "assurance": 0.1,
+      "geographic": 0.2
+    },
+    "impact": {
+      "revenue": null,
+      "recovery": null,
+      "centrality": null
+    }
+  },
+  {
+    "id": "S4",
+    "name": "Climate & logistics lens",
+    "rationale": "Physical-risk view",
+    "vuln": {
+      "financial": 0.15,
+      "operational": 0.2,
+      "assurance": 0.15,
+      "geographic": 0.5
+    },
+    "impact": {
+      "revenue": null,
+      "recovery": null,
+      "centrality": null
+    }
+  },
+  {
+    "id": "S5",
+    "name": "Revenue-only impact",
+    "rationale": "Ignores recovery time and centrality",
+    "vuln": {
+      "financial": null,
+      "operational": null,
+      "assurance": null,
+      "geographic": null
+    },
+    "impact": {
+      "revenue": 1,
+      "recovery": 0,
+      "centrality": 0
+    }
+  }
+]
