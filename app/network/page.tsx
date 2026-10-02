@@ -1,5 +1,10 @@
-import { Pending } from "@/components/ui/Pending";
+import { Suspense } from "react";
+import { NetworkView } from "@/components/network/NetworkView";
 
 export default function Page() {
-  return <Pending step={5} what="Interactive Tier-3 → Tier-1 → product map with evidence on every link, and the node drawer." />;
+  return (
+    <Suspense>
+      <NetworkView />
+    </Suspense>
+  );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, Source_Serif_4 } from "next/font/google";
+import { Drawer } from "@/components/drawer/Drawer";
 import { Footer } from "@/components/shell/Footer";
 import { Header } from "@/components/shell/Header";
 import { SideNav } from "@/components/shell/SideNav";
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main className="flex-1 px-8 py-6">{children}</main>
           <Footer caseCutoff={assumptions.dates.caseCutoff} researchAsOf={assumptions.dates.researchAsOf} />
         </div>
+        <Drawer />
       </body>
     </html>
   );
