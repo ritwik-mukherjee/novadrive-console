@@ -29,3 +29,4 @@ Where the PRD was ambiguous, the option that makes evidence more inspectable for
 
 14. **Next.js 16 / Tailwind v4.** These are the latest versions (the PRD says "14+"). Tailwind's default colour palette, shadows and radii are switched off in `globals.css`, so only the section 8 tokens exist.
 15. **Parity tolerance.** The full workbook comparison runs at 1e-6, which is tighter than the PRD's ±0.1. The PRD's section 11 table is also tested separately, at ±0.1.
+16. **Live search keeps only sourced candidates.** A live candidate is shown only if it cites one valid http(s) page the model read. Entries the model lists from memory, or marks `not read` or `verify`, are dropped, and the Alternates screen shows how many were dropped. This is the same evidence rule the curated shortlist follows. The search has one 135 s deadline across all turns, inside the function's 150 s limit, and retries are off so a failed call isn't billed twice.

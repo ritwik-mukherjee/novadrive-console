@@ -4,12 +4,12 @@
  * route answers 503 { configured: false } and the UI keeps the curated list.
  */
 import Anthropic from "@anthropic-ai/sdk";
-import { componentsForNode, nodesForAlternate } from "@/lib/alternates";
+import { componentsForNode, isVerifiedSource, nodesForAlternate } from "@/lib/alternates";
 import { dataset } from "@/lib/data";
 import { buildModel } from "@/lib/engine";
 
 export const runtime = "nodejs";
-export const maxDuration = 60;
+export const maxDuration = 150;
 
 const MODEL = "claude-opus-5-5";
 const CACHE_TTL_MS = 6 * 60 * 60 * 1000;
@@ -25,7 +25,7 @@ const score = { type: "integer", enum: [1, 2, 3, 4, 5] };
 const submitTool = {
   name: "submit_candidates",
   description:
-    "Submit the final list of alternate-supplier candidates found with web search. Call this exactly once, after searching, with 3 to 6 candidates.",
+    "Submit the final list of alternate-supplier candidates found with web search. Call this exactly once, after searching, with up to 6 candidates, each backed by a page you actually read.",
   strict: true,
   input_schema: {
     type: "object",
@@ -96,8 +96,9 @@ A supplier in our network has been flagged: ${node.name} (Tier-${node.input.tier
 What it supplies, and the screening criteria:
 ${compText}
 
-Use web search to find 3 to 6 candidates. Rules:
+Use web search to find up to 6 candidates (aim for 3 or more). Rules:
 - Use current public sources only: manufacturer product pages, dated press releases or filings. Record the exact URL you read and its date (or "accessed ${today}" if undated).
+- Include a candidate only if a search result you read supports it, and quote the evidence sentence from that page. Do not add companies from memory; fewer verified candidates are better than an unverified one.
 - Exclude ${node.name} itself and any company whose product would depend on the same failed node (for example a module maker that buys the same dies or substrates). Our network names are fictional, so judge independence from public footprint and supply-chain information.
 - Prefer candidates not already on our curated list: ${curated.map((a) => a.candidate.split(" – ")[0]).join("; ") || "none"}.
 - Score each candidate 1-5 on: technical capability match, application relevance, footprint & independence from the failed node, scale/capacity, industry presence & quality systems, qualification ease (5 = easiest). Give a one-line reason per score.
@@ -135,12 +136,17 @@ export async function POST(req: Request) {
   }
   hits.set(ip, [...recent, Date.now()]);
 
-  const client = new Anthropic({ timeout: 50_000, maxRetries: 1 });
+  // One deadline across all turns, kept inside maxDuration so the function returns a clean 504 instead of being killed.
+  const deadline = Date.now() + 135_000;
+  const client = new Anthropic({ maxRetries: 0 });
   const messages: Anthropic.Beta.BetaMessageParam[] = [{ role: "user", content: buildPrompt(nodeId) }];
 
   try {
     for (let turn = 0; turn < 4; turn++) {
-      const response = await client.beta.messages.create({
+      const remaining = deadline - Date.now();
+      if (remaining < 10_000) break;
+      const response = await client.beta.messages.create(
+        {
         model: MODEL,
         max_tokens: 16000,
         thinking: { type: "adaptive" },
@@ -150,7 +156,9 @@ export async function POST(req: Request) {
         tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 5 }, submitTool],
         tool_choice: { type: "auto" },
         messages,
-      });
+        },
+        { timeout: remaining },
+      );
 
       if (response.stop_reason === "refusal") {
         return Response.json({ error: "The model declined this search." }, { status: 502 });
@@ -171,12 +179,14 @@ export async function POST(req: Request) {
         return Response.json({ error: "No structured result returned." }, { status: 502 });
       }
       const input = call.input as { candidates?: RawCandidate[] };
-      const candidates = (input.candidates ?? []).filter((c) => /^https?:\/\//.test(c.url));
+      const all = input.candidates ?? [];
+      const candidates = all.filter((c) => isVerifiedSource(c.url, c.page_date));
       const body = {
         configured: true,
         nodeId,
         model: response.model,
         searchedAt: new Date().toISOString(),
+        dropped: all.length - candidates.length,
         candidates: candidates.map((c, i) => ({
           id: `live-${nodeId}-${i + 1}`,
           nodeId,

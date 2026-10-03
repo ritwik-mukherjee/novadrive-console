@@ -25,6 +25,8 @@ export interface LiveSearchState {
   message?: string;
   searchedAt?: string;
   cached?: boolean;
+  /** Candidates removed because they cited no page the model read. */
+  dropped?: number;
 }
 
 interface AltState {

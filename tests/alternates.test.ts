@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { classifyRoute, componentsForNode, nodesForAlternate, toCsv, viewCandidate } from "@/lib/alternates";
+import { classifyRoute, componentsForNode, isVerifiedSource, nodesForAlternate, toCsv, viewCandidate } from "@/lib/alternates";
 import { dataset } from "@/lib/data";
 import { buildModel } from "@/lib/engine";
 
@@ -48,5 +48,19 @@ describe("Alternates mapping", () => {
     expect(lines).toHaveLength(2 + 28);
     expect(lines[1]).toContain("Source date");
     expect(csv).toContain("https://www.infineon.com/");
+  });
+});
+
+describe("Live search source check", () => {
+  it("keeps candidates that cite a page that was read", () => {
+    expect(isVerifiedSource("https://www.semikron-danfoss.com/products/power-modules", "accessed 2026-10-02")).toBe(true);
+    expect(isVerifiedSource("https://example.com/press/2026-05-01-launch", "2026-05-01")).toBe(true);
+  });
+  it("drops candidates the model listed without reading a source", () => {
+    expect(isVerifiedSource("https://www.st.com (not read; verify)", "accessed 2026-10-02 (not read)")).toBe(false);
+    expect(isVerifiedSource("https://www.onsemi.com", "accessed 2026-10-02 (not read)")).toBe(false);
+    expect(isVerifiedSource("www.example.com/page", "2026-01-01")).toBe(false);
+    expect(isVerifiedSource("not stated", "2026-01-01")).toBe(false);
+    expect(isVerifiedSource("ftp://example.com/file", "2026-01-01")).toBe(false);
   });
 });

@@ -39,7 +39,7 @@ export function AlternatesView() {
   const runSearch = async () => {
     setSearch(nodeId, { status: "loading" });
     const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 60_000);
+    const timer = setTimeout(() => ctrl.abort(), 150_000);
     try {
       const res = await fetch("/api/alternates/search", {
         method: "POST",
@@ -54,7 +54,7 @@ export function AlternatesView() {
         setSearch(nodeId, { status: "error", message: `${body.error ?? "Search failed"} Showing the curated shortlist.` });
       } else {
         addLive(nodeId, (body.candidates as Omit<LiveCandidate, "accepted" | "component">[]).map((c) => ({ ...c, component: comps.map((x) => x.id).join("/"), accepted: false })));
-        setSearch(nodeId, { status: "done", searchedAt: body.searchedAt, cached: body.cached });
+        setSearch(nodeId, { status: "done", searchedAt: body.searchedAt, cached: body.cached, dropped: body.dropped ?? 0 });
       }
     } catch {
       setSearch(nodeId, { status: "error", message: "Search timed out or the network failed. Showing the curated shortlist." });
@@ -209,7 +209,7 @@ export function AlternatesView() {
           The query is built from the component, application and screening criteria above, and excludes the incumbent and anything that depends on it.
           Results stay &ldquo;Unverified&rdquo; until you accept them.
         </p>
-        {st.status === "loading" && <p className="mt-3 text-[13px]" role="status">Searching manufacturer pages and dated releases (up to ~45 s)…</p>}
+        {st.status === "loading" && <p className="mt-3 text-[13px]" role="status">Searching manufacturer pages and dated releases (usually under a minute, up to ~2 min)…</p>}
         {(st.status === "unconfigured" || st.status === "error") && (
           <p className="mt-3 border-l-2 border-high pl-2 text-[13px]" role="status">
             {st.message}
@@ -218,6 +218,7 @@ export function AlternatesView() {
         {st.status === "done" && (
           <p className="mt-2 text-xs text-muted">
             {liveForNode.length} candidates · searched {st.searchedAt?.slice(0, 16).replace("T", " ")} UTC{st.cached ? " (cached)" : ""}
+            {st.dropped ? ` · ${st.dropped} unverified suggestion${st.dropped > 1 ? "s" : ""} dropped (no source page read)` : ""}
           </p>
         )}
         {liveForNode.length > 0 && (

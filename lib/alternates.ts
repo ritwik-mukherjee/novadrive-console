@@ -119,3 +119,18 @@ export function toCsv(rows: CandidateView[], meta: string): string {
   for (const r of rows) lines.push(CSV_COLS.map(([, f]) => esc(f(r))).join(","));
   return lines.join("\r\n");
 }
+
+/**
+ * A live candidate counts only if the model cites one page it actually read:
+ * a single well-formed http(s) URL with no "not read / verify" caveat.
+ */
+export function isVerifiedSource(url: string, pageDate: string): boolean {
+  if (/not read|unverified|verify/i.test(`${url} ${pageDate}`)) return false;
+  if (/\s/.test(url.trim())) return false;
+  try {
+    const u = new URL(url.trim());
+    return (u.protocol === "https:" || u.protocol === "http:") && u.hostname.includes(".");
+  } catch {
+    return false;
+  }
+}
