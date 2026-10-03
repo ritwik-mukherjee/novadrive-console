@@ -219,6 +219,7 @@ export function AlternatesView() {
           <p className="mt-2 text-xs text-muted">
             {liveForNode.length} candidates · searched {st.searchedAt?.slice(0, 16).replace("T", " ")} UTC{st.cached ? " (cached)" : ""}
             {st.dropped ? ` · ${st.dropped} unverified suggestion${st.dropped > 1 ? "s" : ""} dropped (no source page read)` : ""}
+            {liveForNode.length === 0 && " · no candidate could be backed by a source page this time; the curated shortlist stands."}
           </p>
         )}
         {liveForNode.length > 0 && (

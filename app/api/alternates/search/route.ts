@@ -25,7 +25,7 @@ const score = { type: "integer", enum: [1, 2, 3, 4, 5] };
 const submitTool = {
   name: "submit_candidates",
   description:
-    "Submit the final list of alternate-supplier candidates found with web search. Call this exactly once, after searching, with up to 6 candidates, each backed by a page you actually read.",
+    "Submit the final list of alternate-supplier candidates found with web search. Call this exactly once, after searching, with 3 to 6 candidates (fewer only if no source page could be found), each backed by a page you read.",
   strict: true,
   input_schema: {
     type: "object",
@@ -96,9 +96,10 @@ A supplier in our network has been flagged: ${node.name} (Tier-${node.input.tier
 What it supplies, and the screening criteria:
 ${compText}
 
-Use web search to find up to 6 candidates (aim for 3 or more). Rules:
+Use web search to find 3 to 6 candidates. Rules:
+- Search for each candidate's own product page or a dated press release, so that every candidate has a source you read. Major, well-known manufacturers are fine as long as you cite such a page for them.
 - Use current public sources only: manufacturer product pages, dated press releases or filings. Record the exact URL you read and its date (or "accessed ${today}" if undated).
-- Include a candidate only if a search result you read supports it, and quote the evidence sentence from that page. Do not add companies from memory; fewer verified candidates are better than an unverified one.
+- Quote the evidence sentence from that page. Leave out a company only if you could not find any page for it; if fewer than 3 can be sourced, submit those.
 - Exclude ${node.name} itself and any company whose product would depend on the same failed node (for example a module maker that buys the same dies or substrates). Our network names are fictional, so judge independence from public footprint and supply-chain information.
 - Prefer candidates not already on our curated list: ${curated.map((a) => a.candidate.split(" – ")[0]).join("; ") || "none"}.
 - Score each candidate 1-5 on: technical capability match, application relevance, footprint & independence from the failed node, scale/capacity, industry presence & quality systems, qualification ease (5 = easiest). Give a one-line reason per score.
@@ -150,7 +151,7 @@ export async function POST(req: Request) {
         model: MODEL,
         max_tokens: 16000,
         thinking: { type: "adaptive" },
-        output_config: { effort: "low" },
+        output_config: { effort: "medium" },
         betas: ["server-side-fallback-2026-07-01"],
         fallbacks: "default",
         tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 5 }, submitTool],
@@ -215,7 +216,7 @@ export async function POST(req: Request) {
           },
         })),
       };
-      cache.set(nodeId, { at: Date.now(), body });
+      if (candidates.length) cache.set(nodeId, { at: Date.now(), body });
       return Response.json({ ...body, cached: false });
     }
     return Response.json({ error: "Search did not finish in time." }, { status: 504 });
